@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink, Link } from "react-router-dom";
 import './Header.css';
 import { MdStars } from "react-icons/md";
@@ -8,6 +8,8 @@ import { IoIosArrowDown, IoIosHelpCircleOutline } from "react-icons/io";import {
 
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className='sticky-top'>
       {/* 
@@ -41,8 +43,15 @@ const Header = () => {
       <header className="header-bottom-strip px-5 ">
           <div className="container-xxl">
             <div className="row d-flex align-items-center justify-content-center">
+              <div className="menu" onClick={() => {
+                setMenuOpen(!menuOpen);
+              }}>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
               <div className="col-3 px-5">
-                <img className='img-fluid' width={140} height={32} src="../public/Jumia-Logo.png" alt="" />
+                <img className='img-fluid logo' width={140} height={32} src="../public/Jumia-Logo.png" alt="" />
               </div>
               <div className="col-5 d-flex justify-content-center align-items-center">
                   <div className="input-group">
@@ -55,9 +64,9 @@ const Header = () => {
                 <div className="header-bottom-links d-flex align-items-center justify-content-between">
                   <div className='d-flex align-items-center'>
                     <Link className='mx-3 g-10 d-flex align-items-center text-dark link-text'>
-                      <BsPerson size={32}/>
+                      <BsPerson size={32} className='link-icons'/>
                       <p className='link-text mb-0 fw-semibold'>Account</p>
-                      <IoIosArrowDown />
+                      <IoIosArrowDown className='link-arrow-down' />
                     </Link>
 
                     <Link className='me-3 g-10 d-flex align-items-center text-dark link-text'>
@@ -67,11 +76,19 @@ const Header = () => {
                     </Link>
 
                     <Link className='g-10 d-flex align-items-center text-dark link-text'>
-                      <IoCartOutline size={32}/>
+                      <IoCartOutline size={32} className='link-icons'/>
                       <p className='link-text mb-0 fw-semibold'>Cart</p>
                     </Link>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="row search-button">
+              <div className="col-12 mb-2 w-100">
+                  <div className="input-group search-bar">
+                      <span className="input-group-text" id="basic-addon1"><BsSearch /></span>
+                      <input type="text" className="form-control" placeholder="Search Products, brands and categories" aria-label="Search Products, brands and categories" aria-describedby="basic-addon2" />
+                  </div>
               </div>
             </div>
           </div>
