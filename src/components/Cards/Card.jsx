@@ -1,63 +1,42 @@
 import React from 'react'
 import '../Cards/card.css'
-import card1 from '../Cards/images/card1.png'
-import card2 from '../Cards/images/card2.png'
-import card4 from '../Cards/images/card4.png'
-import card3 from '../Cards/images/card3.png'
-import card5 from '../Cards/images/card5.png'
-import card6 from '../Cards/images/card6.png'
-// import card7 from '../images/card7.jpg'
-// import card8 from '../images/card8.jpg'
-// import card9 from '../images/card9.jpg'
-// import card10 from '../images/card10.jpg'
-// import card11 from '../images/card11.jpg'
-// import card12 from '../images/card12.jpg'
-import card14 from '../Cards/images/card14.jpg'
-import card13 from '../Cards/images/card13.jpg'
-import card15 from '../Cards/images/card15.jpg'
-import card16 from '../Cards/images/card16.jpg'
-import card17 from '../Cards/images/card17.jpg'
-import card18 from '../Cards/images/catrd18.jpg'
-import card19 from '../Cards/images/card19.jpg'
-import card20 from '../Cards/images/card20.jpg'
-import card21 from '../Cards/images/card21.jpg'
-import card22 from '../Cards/images/card22.png'
-import card23 from '../Cards/images/card23.jpg'
-import card24 from '../Cards/images/card24.jpg'
-import card25 from '../Cards/images/card25.png'
-import card26 from '../Cards/images/card26.png'
-import card27 from '../Cards/images/card27.png'
-import card28 from '../Cards/images/card28.png'
-import card29 from '../Cards/images/card29.png'
-import card30 from '../Cards/images/card30.png'
-import card31 from '../Cards/images/card31.png'
-import card32 from '../Cards/images/card32.png'
-import card33 from '../Cards/images/card33.png'
-import card34 from '../Cards/images/card34.jpg'
-import card35 from '../Cards/images/card35.png'
-import card36 from '../Cards/images/card36.png'
-import card37 from '../Cards/images/card37.png'
-import card38 from '../Cards/images/card38.png'
-import card39 from '../Cards/images/card39.png'
-import card40 from '../Cards/images/card40.png'
-import card41 from '../Cards/images/card41.png'
-import card42 from '../Cards/images/card42.png'
-import card43 from '../Cards/images/card43.png'
-import card44 from '../Cards/images/card44.png'
-import card45 from '../Cards/images/card45.jpg'
-import card46 from '../Cards/images/card46.jpg'
-import card47 from '../Cards/images/card47.jpg'
-import card48 from '../Cards/images/card48.jpg'
+import { useState } from 'react'
 
+const Card = (props) => {
+    const [cardData, setCardData] = useState(props.data)
+    
+    const render2 = cardData.map((card,idx) => {
+        return (
+            <div key={idx} className='col-lg-2 col-4 g-1'>
+                 
+            <div class='tol'>
+                <div id=''><img src={card.imagesrc} /></div>
+            <p>{card.ProductName}</p>
+                
+                
+                </div>    
+            </div>
+        )
+    })
 
-
-
-const Card = () => {
   return (
     <div>
-        <div className='appliances my-3'>
+        <div className='appliances my-3 container text-center'>
+            <div className='card-text'>
+                <h4>{props.title}</h4>
+            </div>
+            <div className=' items my-3'>
+                <div className='row align-items-start'> 
+                    {render2}
+                </div>
+            </div>
+        </div>
+
+
+
+        {/* <div className='appliances my-3'>
             <h4>Appliances Upgrade</h4>
-        <div className='items'>
+        <div className='items my-3 my-3'>
             <div className='row mx-1 g-6'> 
             <div class='col g-0 mb-2' style={{marginLeft:'10px'}}>
                 <div id='washer'><img src={card1}/></div>
@@ -87,7 +66,7 @@ const Card = () => {
             </div>
         <div className='appliances my-3'>
             <h4>Shop From Our Collections</h4>
-        <div className='items'>
+        <div className='items my-3'>
             <div className='row mx-1 g-6'> 
             <div class='col g-0 mb-2' style={{marginLeft:'10px'}}>
                 <div id='13'><img src={card13}/></div>
@@ -143,7 +122,7 @@ const Card = () => {
 
         <div className='appliances my-3'>
             <h4>Phone Deals</h4>
-        <div className='items'>
+        <div className='items my-3'>
             <div className='row mx-1 g-6'> 
             <div class='col g-0 mb-2' style={{marginLeft:'10px'}}>
                 <div id='25'><img src={card25}/></div>
@@ -173,7 +152,7 @@ const Card = () => {
             </div>
         <div className='appliances my-3'>
             <h4>Jumia Football Zone</h4>
-        <div className='items'>
+        <div className='items my-3'>
             <div className='row mx-1 g-6'> 
             <div class='col g-0 mb-2' style={{marginLeft:'10px'}}>
                 <div id='31'><img src={card31}/></div>
@@ -203,7 +182,7 @@ const Card = () => {
             </div>
         <div className='appliances my-3'>
             <h4>Computing Deals</h4>
-        <div className='items'>
+        <div className='items my-3'>
             <div className='row mx-1 g-6'> 
             <div class='col g-0 mb-2' style={{marginLeft:'10px'}}>
                 <div id='37'><img src={card37}/></div>
@@ -233,7 +212,7 @@ const Card = () => {
             </div>
         <div className='appliances my-3'>
             <h4>Health And Beauty</h4>
-        <div className='items'>
+        <div className='items my-3'>
             <div className='row mx-1 g-6'> 
             <div class='col g-0 mb-2' style={{marginLeft:'10px'}}>
                 <div id='43'><img src={card43}/></div>
@@ -267,7 +246,7 @@ const Card = () => {
         </div>
         </div>
         </div>
-        </div>
+        </div> */}
 
     </div>
   )

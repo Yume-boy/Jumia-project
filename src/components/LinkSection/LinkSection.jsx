@@ -141,7 +141,7 @@ useShow12('d-none')
 
   return (
     <div className="">
-      <div className="container-xxl">
+      <div className="container">
         <div className='d-flex justify-content-center text-white bg-success mt-2 align-center d-lg-none'>
           <h4>CALL TO ORDER: 0700 600 0000</h4>
         </div>
