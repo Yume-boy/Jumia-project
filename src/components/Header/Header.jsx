@@ -11,7 +11,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className='sticky-top'>
+    <div className=''>
       {/* 
       <header className="header-top-strip">
         <div className="container-xxl">
