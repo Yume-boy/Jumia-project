@@ -7,8 +7,9 @@ const ProductSection = () => {
       <div className="container-xxl">
         <div className="row">
           <div className="col-3 px-5">Product Section</div>
-          <div className="col-3"></div>
-          <div className="col-3"></div>
+          <div className='row'>
+            
+          </div>
         </div>
       </div>
     </div>
