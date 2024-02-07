@@ -1,4 +1,4 @@
-const data = [
+const data3 = [
     {
         id: 1,
         name: 'Nexus Water Dispenser (NX-102BL)',
@@ -94,4 +94,4 @@ const data = [
     }
 ]
 
-export default data
+export default data3

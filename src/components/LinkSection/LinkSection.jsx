@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, Mousewheel } from 'swiper/modules';
 
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsShop } from "react-icons/bs";
@@ -140,9 +140,9 @@ useShow12('d-none')
 
 
   return (
-    <div className="">
-      <div className="container">
-        <div className='d-flex justify-content-center text-white bg-success mt-2 align-center d-lg-none'>
+    <div className="linkSection" style={{fontFamily: 'Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif'}}>
+      <div className="">
+        <div className='d-flex justify-content-center text-white call-to-order mt-2 align-center pt-2 d-lg-none'>
           <h4>CALL TO ORDER: 0700 600 0000</h4>
         </div>
         <div className="row p-5 p-sm-2">
@@ -627,7 +627,7 @@ useShow12('d-none')
 
       <Swiper
        calculateHeight:true
-        slidesPerView={2}
+        slidesPerView={1.2}
         centeredSlides={true}
         spaceBetween={5}
         grabCursor={true}
@@ -640,7 +640,7 @@ useShow12('d-none')
           disableOnInteraction: false,
         }}
         loop={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation,]}
         className="mySwiper d-lg-none"
       >
         <SwiperSlide><img src="src/components/LinkSection/top-1.jpg" alt="" /></SwiperSlide>

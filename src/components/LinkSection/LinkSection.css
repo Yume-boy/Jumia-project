@@ -1,5 +1,5 @@
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.linkSection {
+  font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
 }
 
 
@@ -35,8 +35,8 @@ body {
     padding: 3px 8px;
     display: flex;
     align-items: center;
-    font-weight: 400;
     margin: auto 2px;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
 }
 
 .links a:hover {
@@ -48,7 +48,7 @@ body {
     left: 97%;
     background-color: #fff;
     height: 381px;
-    width: 885px;
+    width: 745px;
     display: none;
     z-index: 1000;
     border-radius: 5px;
@@ -70,7 +70,7 @@ body {
   
   body {
     background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif;
     font-size: 14px;
     color: #000;
     margin: 0;
@@ -79,8 +79,24 @@ body {
   
   .swiper {
     width: 100%;
-    height: 81%;
-    display: none;
+    height: 97%;
+
+  }
+
+  @media (max-width: 770px) {
+    .swiper {
+      width: 100%;
+      height: 400px;
+      display: none;
+    }
+  }
+
+  @media (max-width: 780px) {
+    .swiper {
+      width: 100%;
+      height: 200px;
+      display: none;
+    }
   }
   
   .swiper-slide {
@@ -129,7 +145,7 @@ body {
 }
 
 .call h6 {
-  font-size: 14px;
+  font-size: 13px;
   color: #363636;
 }
 
@@ -163,4 +179,12 @@ body {
   align-items: center;
   justify-content: center;
   align-content: center;
+}
+
+.call-to-order {
+  background-color: #08a329;
+}
+
+.call-to-order h4 {
+  font-size: clamp(0.75rem, 0.7167rem + 0.2667vw, 1rem);
 }

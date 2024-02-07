@@ -1,4 +1,4 @@
-const data = [
+const data2 = [
     {
         id: 1,
         name: 'Rexona Men Antibacterial Protection 72h - 200ml (Pack Of 2) + Free Gift',
@@ -94,4 +94,4 @@ const data = [
     }
 ]
 
-export default data
+export default data2

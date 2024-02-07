@@ -12,16 +12,22 @@ import cardData3 from '../../apiData/cardData3';
 import cardData4 from '../../apiData/cardData4';
 import cardData5 from '../../apiData/CardData5';
 import cardData6 from '../../apiData/cardData6';
+import imageOne from '../../apiData/imageOne'
+import imageTwo from '../../apiData/imageTwo'
+import imageThree from '../../apiData/imageThree'
+import imageFour from '../../apiData/imageFour'
 
 
 function Home() {
   return (
-    <div>
+    <div className=' container'>
       <LinkSection />
       <Categories />
-      <ProductSection />
+      <ProductSection data={imageOne}/>
       <BannerCarousel />
+      <ProductSection data={imageTwo}/>
       <Card data={cardData1} title = 'Appliances Upgrade'/>
+      <ProductSection data={imageThree}/>
       <Card data={cardData2} title ='Shop From Our Collections'/>
       <Card data={cardData3} title ='Phone Deals'/>
       <Card data={cardData4} title ='Jumia Football Zones'/>

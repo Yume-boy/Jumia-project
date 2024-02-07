@@ -1,4 +1,4 @@
-const data = [
+const data1 = [
     {
         id: 1,
         name: 'Eaget Pen Flash Drive 3.0',
@@ -108,4 +108,4 @@ const data = [
     },
 ]
 
-export default data
+export default data1

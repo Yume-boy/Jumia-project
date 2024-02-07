@@ -1,4 +1,4 @@
-const data = [
+const data4 = [
     {
         id: 1,
         name: 'Dresses Ladies Turkey Female Clothing Women Office Gowns For Ladies Skirts Gown Classic Ladies',
@@ -97,4 +97,4 @@ const data = [
     }
 ]
 
-export default data
+export default data4

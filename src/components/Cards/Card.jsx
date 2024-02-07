@@ -21,11 +21,11 @@ const Card = (props) => {
 
   return (
     <div>
-        <div className='appliances my-3 container text-center'>
+        <div className='appliances my-3  text-center'>
             <div className='card-text'>
                 <h4>{props.title}</h4>
             </div>
-            <div className=' items my-3'>
+            <div className=' items my-3 container'>
                 <div className='row align-items-start'> 
                     {render2}
                 </div>
