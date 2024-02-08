@@ -3,6 +3,10 @@
     border-color: #dcdcdc !important;
 }
 
+.body {
+    width: 100% !important;
+}
+
 .header-top-strip {
     background: #4b797d;
     width: 100%;
@@ -49,4 +53,68 @@
 
 .link-text:hover {
     color: #f68b1e !important;
+}
+
+.header-bottom-strip .menu {
+    display: none;
+    position: absolute;
+    top: 1.3rem;
+    left: .7rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22px;
+    height: 14px;
+}
+
+.header-bottom-strip .menu span {
+    height: 2px;
+    width: 22px;
+    background-color: #000;
+    border-radius: .2rem;
+}
+
+.input-group {
+    border-radius: 20px !important;
+}
+
+
+@media (max-width: 480px) {
+
+    .header-bottom-strip .menu {
+        display: flex;
+    }
+
+    .header-middle-strip {
+        display: none;
+    }
+
+    .px-5 {
+        padding: 0 .4rem !important;
+    }
+
+    .logo {
+        margin-left: -2.5rem;
+    }
+
+    .header-bottom-strip .col-5 {
+        display: none !important;
+    }
+
+    .header-bottom-links {
+        position: absolute !important;
+        top: .8rem;
+        right: 1rem;    
+    }
+
+    .header-bottom-links p {
+        display: none !important;
+    }
+
+    .link-arrow-down {
+        display: none;
+    }
+
+    .link-text:nth-child(2) {
+        display: none !important;
+    }
 }
