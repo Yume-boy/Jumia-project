@@ -1,4 +1,3 @@
-import React from 'react'
 import './Home.css'
 import LinkSection from '../LinkSection/LinkSection';
 import Categories from '../Categories/Categories';
@@ -18,7 +17,7 @@ import imageThree from '../../apiData/imageThree'
 import imageFour from '../../apiData/imageFour'
 
 
-function Home() {
+function Home() { 
   return (
     <div className=' container'>
       <LinkSection />
