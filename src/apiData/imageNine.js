@@ -96,4 +96,4 @@ const data9 = [
        },
 ]
 
-export default imageNine
+export default data9

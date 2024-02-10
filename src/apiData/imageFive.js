@@ -98,4 +98,4 @@ const data5 = [
 
 
 
-export default imageFive
+export default data5

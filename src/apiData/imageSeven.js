@@ -99,4 +99,4 @@ const data7 = [
 ]
 
 
-export default imageSeven
+export default data7

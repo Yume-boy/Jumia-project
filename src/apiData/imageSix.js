@@ -61,4 +61,4 @@ const data6 = [
             imageUrl: 'https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/906689/1.jpg?6188' 
            },
 ]
-export default imagesSix
+export default data6

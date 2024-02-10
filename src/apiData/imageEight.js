@@ -93,3 +93,5 @@ const data8 = [
         imageUrl: 'https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/132729/1.jpg?1818' 
        },
 ]
+
+export default data8

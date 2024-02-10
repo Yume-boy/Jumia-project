@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Autoplay, Pagination, Mousewheel } from 'swiper/modules';
+import { Autoplay, Pagination, Mousewheel, FreeMode, Scrollbar } from 'swiper/modules';
 import { useWindowSize } from "@uidotdev/usehooks";
 
 
@@ -47,7 +47,9 @@ const ProductSection = (props) => {
           <Swiper
         slidesPerView={size.width < 768 ? 3 : 6}
         spaceBetween={10}
-       
+        mousewheel={true}
+        freeMode={true}
+        scrollbar={true}
         breakpoints={{
           640: {
             slidesPerView: 3,
@@ -62,7 +64,7 @@ const ProductSection = (props) => {
             spaceBetween: 20,
           },
         }}
-        modules={[Pagination, Autoplay, Mousewheel]}
+        modules={[Pagination, Autoplay, Mousewheel, FreeMode, Scrollbar]}
         className="mySwiper"
       >
         {render2}
