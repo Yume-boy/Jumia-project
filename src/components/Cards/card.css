@@ -1,0 +1,33 @@
+
+.appliances{
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.items img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+
+
+.appliances .card-text {
+    background-color: #C3DEF0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+.items p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tol:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px white;
+}

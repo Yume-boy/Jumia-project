@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, Mousewheel } from 'swiper/modules';
 
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsShop } from "react-icons/bs";
@@ -140,10 +140,17 @@ useShow12('d-none')
 
 
   return (
+<<<<<<< HEAD
     <div className="">
       <div className="container-xxl">
         <div className='d-flex justify-content-center text-white bg-success mt-2 align-center d-lg-none'>
           <h4 className='mb-0'>CALL TO ORDER: 0700 600 0000</h4>
+=======
+    <div className="linkSection" style={{fontFamily: 'Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif'}}>
+      <div className="">
+        <div className='d-flex justify-content-center text-white call-to-order mt-2 align-center pt-2 d-lg-none'>
+          <h4>CALL TO ORDER: 0700 600 0000</h4>
+>>>>>>> 51e71df4ba73e9cad6566253914add90a537753d
         </div>
         <div className="row p-5 p-sm-2">
           <div className="d-md-none d-sm-none d-lg-block col-lg-2 px- position-relative">
@@ -627,7 +634,7 @@ useShow12('d-none')
 
       <Swiper
        calculateHeight:true
-        slidesPerView={2}
+        slidesPerView={1.2}
         centeredSlides={true}
         spaceBetween={5}
         grabCursor={true}
@@ -640,7 +647,7 @@ useShow12('d-none')
           disableOnInteraction: false,
         }}
         loop={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation,]}
         className="mySwiper d-lg-none"
       >
         <SwiperSlide><img src="src/components/LinkSection/top-1.jpg" alt="" /></SwiperSlide>
