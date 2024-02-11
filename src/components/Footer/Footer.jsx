@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { MdEmail, MdStars } from "react-icons/md";
 import { FaFacebookF, FaYoutube, FaTwitter, FaCcMastercard, FaMaxcdn } from "react-icons/fa";
 import { TiSocialInstagram } from "react-icons/ti";
+import { IoIosArrowUp } from "react-icons/io";
 import { GiReceiveMoney } from "react-icons/gi";
 import { RiVisaLine } from "react-icons/ri";
 import { TbBrandAirbnb, TbBrandAngular, TbBrandAmongUs,  TbBrandAws } from "react-icons/tb";
@@ -259,6 +260,49 @@ const Footer = () => {
               <p className="text-center mb-0 text-white p-3 fs-6">
                 &copy; {new Date().getFullYear()} Powered By Group 1
               </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <footer className='small-screen'>
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12 text-center text-white mobile-top">
+              <IoIosArrowUp />
+              <span>Back to Top</span>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-3 text-center text-white mobile-middle">
+              <span>Chat with us</span>
+            </div>
+            <div className="col-3 text-center text-white mobile-middle">
+              <span>Help Center</span>
+            </div>
+            <div className="col-3 text-center text-white mobile-middle">
+              <span>Contact Us</span>
+            </div>
+            <div className="col-3 text-center text-white mobile-middle">
+              <span>terms & Conditions</span>
+            </div>
+            <div className="col-3 text-center text-white mobile-middle">
+              <span>Privacy Notice</span>
+            </div>
+            <div className="col-3 text-center text-white mobile-middle">
+              <span>Cookie Notice</span>
+            </div>
+            <div className="col-3 text-center text-white mobile-middle">
+              <span>Become a Seller</span>
+            </div>
+            <div className="col-3 text-center text-white mobile-middle">
+              <span>Report a Product</span>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12 text-center text-white mobile-middle">
+              <span>Jumia Anniversary 2024</span>
+              <hr className='mt-3' />
+              <p>All Rights Reserved</p>
             </div>
           </div>
         </div>
