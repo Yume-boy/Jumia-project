@@ -19,6 +19,14 @@
     display: none;
   }
 
+  .link-header {
+    background-color: #fe0000;
+    width: 100% !important;
+    font-size: .9rem !important;
+    font-weight: 500;
+    padding: 4px 0 !important;
+  }
+
   .left {
     display: none;
   }

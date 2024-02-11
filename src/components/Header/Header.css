@@ -78,7 +78,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 
     .header-bottom-strip .menu {
         display: flex;

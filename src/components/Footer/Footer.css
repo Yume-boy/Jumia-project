@@ -71,10 +71,18 @@
     color: #f68b1e !important;
 }
 
+.small-screen {
+    display: none !important;
+}
+
 @media (max-width: 767px) {
     .footer-top-strip,
     .footer-bottom-strip {
         display: none !important;
+    }
+
+    .small-screen {
+        display: block !important;
     }
 
     .mobile-top {
