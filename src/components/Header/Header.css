@@ -77,6 +77,10 @@
     border-radius: 20px !important;
 }
 
+.search-button {
+    display: none;
+}
+
 
 @media (max-width: 767px) {
 
@@ -98,6 +102,11 @@
 
     .header-bottom-strip .col-5 {
         display: none !important;
+    } 
+
+    .search-button {
+        display: block;
+        padding-bottom: 5px;
     }
 
     .header-bottom-links {
