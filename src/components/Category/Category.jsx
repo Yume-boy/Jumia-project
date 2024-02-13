@@ -4,6 +4,7 @@ import FilterSection from '../filterSection/FilterSection';
 import ProductSection from '../ProductSection/ProductSection';
 import OfficialStore from '../officialStore/OfficialStore';
 import CategoryProducts from '../categoryProducts/CategoryProducts';
+import CategoryEssay from '../categoryEssay/CategoryEssay';
 import LinkSection from '../LinkSection/LinkSection';
 import Categories from '../Categories/Categories';
 import BannerCarousel from '../BannerCarousel/BannerCarousel';
@@ -36,6 +37,7 @@ const Category = () => {
         <div className='col-4'><FilterSection/></div>
         <div className='col-8'><CategoryProducts/></div>
       </div>
+      <CategoryEssay/>
     </div>
   )
 }
