@@ -27,8 +27,7 @@ const ProductSection = (props) => {
               <div><img src={card.imageUrl} /></div>
               <div className='products'>
               <div style={{width:'100%'}}><p className='p1'>{card.name}</p></div>
-              <p className='p2'>{card.newPrice}</p>
-              <p className='p3'>{card.oldPrice}</p>
+              <p className='p2'>{card.newPrice} <br /><span className='p3'>{card.oldPrice}</span></p>
               </div>
               
               

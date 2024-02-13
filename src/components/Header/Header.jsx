@@ -51,7 +51,7 @@ const Header = () => {
                 <span></span>
               </div>
               <div className="col-3 px-5">
-                <img className='img-fluid logo' width={140} height={32} src="../public/Jumia-Logo.png" alt="" />
+                <Link to='/'><img className='img-fluid logo' width={140} height={32} src="../public/Jumia-Logo.png" alt="" /></Link>
               </div>
               <div className="col-5 d-flex justify-content-center align-items-center">
                   <div className="input-group">
@@ -75,7 +75,7 @@ const Header = () => {
                       <IoIosArrowDown />
                     </Link>
 
-                    <Link className='g-10 d-flex align-items-center text-dark link-text'>
+                    <Link className='g-10 d-flex align-items-center text-dark link-text' to='/cart'>
                       <IoCartOutline size={32} className='link-icons'/>
                       <p className='link-text mb-0 fw-semibold'>Cart</p>
                     </Link>

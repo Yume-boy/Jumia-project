@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import { Link } from 'react-router-dom';
 
 // import required modules
 import { Autoplay, Pagination, Navigation, Mousewheel } from 'swiper/modules';
@@ -144,23 +145,23 @@ useShow12('d-none')
       <div className='d-flex justify-content-center text-white mt-1 text-center d-lg-none'>
         <h4 className='mb-0 link-header'>CALL TO ORDER: 0700 600 0000</h4>
       </div>
-      <div className="container-xxl">
+      <div className="">
         <div className="row p-5 p-sm-2">
           <div className="d-md-none d-sm-none d-lg-block col-lg-2 px- position-relative">
             <div className='links mx-0'>
-              <a href="" onMouseEnter={showContent} onMouseLeave={hideContent}>Supermarket</a>
-              <a href="" onMouseEnter={showContent1} onMouseLeave={hideContent1}>Supermarket</a>
-              <a href="" onMouseEnter={showContent2} onMouseLeave={hideContent2}>Supermarket</a>
-              <a href="" onMouseEnter={showContent3} onMouseLeave={hideContent3}>Supermarket</a>
-              <a href="" onMouseEnter={showContent4} onMouseLeave={hideContent4}>Supermarket</a>
-              <a href="" onMouseEnter={showContent5} onMouseLeave={hideContent5}>Supermarket</a>
-              <a href="" onMouseEnter={showContent6} onMouseLeave={hideContent6}>Supermarket</a>
-              <a href="" onMouseEnter={showContent7} onMouseLeave={hideContent7}>Supermarket</a>
-              <a href="" onMouseEnter={showContent8} onMouseLeave={hideContent8}>Supermarket</a>
-              <a href="" onMouseEnter={showContent9} onMouseLeave={hideContent9}>Supermarket</a>
-              <a href=""onMouseEnter={showContent10} onMouseLeave={hideContent10}>Supermarket</a>
-              <a href=""onMouseEnter={showContent11} onMouseLeave={hideContent11}>Supermarket</a>
-              <a href=""onMouseEnter={showContent12} onMouseLeave={hideContent12}>Supermarket</a>
+              <Link to='/category' href="" onMouseEnter={showContent} onMouseLeave={hideContent}>Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent1} onMouseLeave={hideContent1}>Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent2} onMouseLeave={hideContent2}>Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent3} onMouseLeave={hideContent3}>Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent4} onMouseLeave={hideContent4}>Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent5} onMouseLeave={hideContent5}>Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent6} onMouseLeave={hideContent6}>Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent7} onMouseLeave={hideContent7}>Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent8} onMouseLeave={hideContent8}>Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent9} onMouseLeave={hideContent9}>Supermarket</Link>
+              <Link to='/category' href=""onMouseEnter={showContent10} onMouseLeave={hideContent10}>Supermarket</Link>
+              <Link to='/category' href=""onMouseEnter={showContent11} onMouseLeave={hideContent11}>Supermarket</Link>
+              <Link to='/category' href=""onMouseEnter={showContent12} onMouseLeave={hideContent12}>Supermarket</Link>
             </div>
             <div className={`position-absolute second ${show}`} >
                         <div class="row">
@@ -168,11 +169,11 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -180,29 +181,29 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -210,11 +211,11 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -225,21 +226,21 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -247,29 +248,29 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -277,21 +278,21 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -302,11 +303,11 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -314,11 +315,11 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -326,11 +327,11 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -341,11 +342,11 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -353,11 +354,11 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -368,33 +369,21 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="col-6 col-md-4 mb-1">
-                    <h6 className='mb-1'>Section</h6>
-                    <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -402,21 +391,33 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-6 col-md-4 mb-1">
+                    <h6 className='mb-1'>Section</h6>
+                    <hr />
+                    <ul class="nav flex-column mb-2">
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -427,21 +428,21 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -449,20 +450,20 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -470,11 +471,11 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -485,21 +486,21 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -507,20 +508,20 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -532,11 +533,11 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -544,29 +545,29 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
@@ -574,16 +575,16 @@ useShow12('d-none')
                     <h6 className='mb-1'>Section</h6>
                     <hr />
                     <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                      <li class="nav-item "><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
             </div>
-            <div className={`position-absolute second ${show8}`} >
+            <div  className={`position-absolute second ${show8}`} >
                 no8
             </div>
             <div className={`position-absolute second ${show9}`} >
@@ -639,9 +640,11 @@ useShow12('d-none')
           delay: 3500,
           disableOnInteraction: false,
         }}
+        id ='linkSection'
         loop={true}
         modules={[Autoplay, Pagination, Navigation,]}
-        className="mySwiper d-lg-none"
+        className="linkSection d-lg-none"
+        
       >
         <SwiperSlide><img src="src/components/LinkSection/top-1.jpg" alt="" /></SwiperSlide>
         <SwiperSlide><img src="src/components/LinkSection/top-2.jpg" alt="" /></SwiperSlide>
