@@ -80,3 +80,5 @@ const contactData = [
     productName: "Sneakers"
   }
 ]
+
+export default contactData
