@@ -70,3 +70,50 @@
 .social-icons:hover {
     color: #f68b1e !important;
 }
+
+.small-screen {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    .footer-top-strip,
+    .footer-bottom-strip {
+        display: none !important;
+    }
+
+    .small-screen {
+        display: block !important;
+    }
+
+    .mobile-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px !important;
+        background-color: #474747 !important;
+        padding: 7px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .mobile-top span {
+        font-size: 10px !important;
+    }
+
+    .mobile-middle p {
+        font-size: 12px !important;
+        font-weight: 600;
+        color: #545454;
+    }
+
+    .mobile-middle span {
+        font-size: 9px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .mobile-middle {
+        background-color: #313131 !important;
+        padding: 12px 0 4px !important;
+    }
+}

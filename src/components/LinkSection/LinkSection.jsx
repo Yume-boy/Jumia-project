@@ -140,11 +140,11 @@ useShow12('d-none')
 
 
   return (
-    <div className="linkSection" style={{fontFamily: 'Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif'}}>
-      <div className="">
-        <div className='d-flex justify-content-center text-white call-to-order mt-2 align-center pt-2 d-lg-none'>
-          <h4>CALL TO ORDER: 0700 600 0000</h4>
-        </div>
+    <div className="">
+      <div className='d-flex justify-content-center text-white mt-1 text-center d-lg-none'>
+        <h4 className='mb-0 link-header'>CALL TO ORDER: 0700 600 0000</h4>
+      </div>
+      <div className="container-xxl">
         <div className="row p-5 p-sm-2">
           <div className="d-md-none d-sm-none d-lg-block col-lg-2 px- position-relative">
             <div className='links mx-0'>
