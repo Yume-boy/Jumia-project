@@ -67,7 +67,7 @@ const Footer = () => {
                 <Link className='text-white footer-link '>
                   Help Center
                 </Link>
-                <Link className='text-white footer-link '>
+                <Link className='text-white footer-link ' to='/contact'>
                   Contact Us
                 </Link>
               </div>
@@ -109,7 +109,7 @@ const Footer = () => {
             <div className="col-3 pe-5 py-4 ">
               <h4 className='text-white ps-5 mb-1 left-text-header'>ABOUT JUMIA</h4>
               <div className='left-text-content ps-5 py-2 mb-2 d-flex flex-column'>
-                <Link className='text-white footer-link '>
+                <Link className='text-white footer-link ' to ='/about'>
                   About us
                 </Link>
                 <Link className='text-white footer-link '>

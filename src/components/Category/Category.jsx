@@ -1,10 +1,14 @@
-import './Home.css'
+import React from 'react';
+import './Category.css';
+import FilterSection from '../filterSection/FilterSection';
+import ProductSection from '../ProductSection/ProductSection';
+import OfficialStore from '../officialStore/OfficialStore';
+import CategoryProducts from '../categoryProducts/CategoryProducts';
+import CategoryEssay from '../categoryEssay/CategoryEssay';
 import LinkSection from '../LinkSection/LinkSection';
 import Categories from '../Categories/Categories';
-import ProductSection from '../ProductSection/ProductSection';
 import BannerCarousel from '../BannerCarousel/BannerCarousel';
 import Card from '../Cards/Card';
-import Essay from '../Essay/Essay';
 import cardData1 from '../../apiData/cardData'
 import cardData2 from '../../apiData/cardData1';
 import cardData3 from '../../apiData/cardData3';
@@ -22,32 +26,20 @@ import imageEight from '../../apiData/imageEight'
 import imageNine from '../../apiData/imageNine'
 
 
-function Home() { 
+const Category = () => {
   return (
-    <div className=' container'>
-      <LinkSection />
-      <Categories />
-      <ProductSection data={imageOne}/>
-      <ProductSection data={imageTwo}/>
-      <Card data={cardData6} title ='Health And Beauty'/>
-      <ProductSection data={imageThree}/>
-      <Card data={cardData1} title = 'Appliances Upgrade'/>
-      <ProductSection data={imageFour}/>
-      <BannerCarousel show2='d-none'/>
+    <div className='container-xl'>
       <ProductSection data={imageFive}/>
-      <Card data={cardData2} title ='Shop From Our Collections'/>
       <Card data={cardData3} title ='Phone Deals'/>
-      <ProductSection data={imageSix}/>
-      <BannerCarousel show1='d-none'/>
-      <ProductSection data={imageSeven}/>
-      <Card data={cardData4} title ='Jumia Football Zones'/>
-      <ProductSection data={imageEight}/>
-      <ProductSection data={imageNine}/>
-      <Card data={cardData5} title ='Computing Deals'/>
-      <Essay />
+      <ProductSection data={imageFive}/>
+      <OfficialStore/>
+      <div className='row'>
+        <div className='col-4'><FilterSection/></div>
+        <div className='col-8'><CategoryProducts/></div>
+      </div>
+      <CategoryEssay/>
     </div>
-  );
+  )
 }
 
-
-export default Home
+export default Category
