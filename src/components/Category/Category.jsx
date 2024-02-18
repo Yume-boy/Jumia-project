@@ -28,14 +28,14 @@ import imageNine from '../../apiData/imageNine'
 
 const Category = () => {
   return (
-    <div className='container-xl'>
+    <div className='container pt-3'>
       <ProductSection data={imageFive}/>
       <Card data={cardData3} title ='Phone Deals'/>
       <ProductSection data={imageFive}/>
       <OfficialStore/>
       <div className='row'>
-        <div className='col-4'><FilterSection/></div>
-        <div className='col-8'><CategoryProducts/></div>
+        <div className='col-lg-3 d-none d-lg-block '><FilterSection/></div>
+        <div className='col-12 col-lg-9'><CategoryProducts/></div>
       </div>
       <CategoryEssay/>
     </div>
