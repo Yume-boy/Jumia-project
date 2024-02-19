@@ -56,14 +56,7 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
-<<<<<<< HEAD
               <div className="col-6 d-flex justify-content-center align-items-center">
-=======
-              <div className="col-3 px-5">
-                <Link to='/'><img className='img-fluid logo' width={140} height={32} src="../public/Jumia-Logo.png" alt="" /></Link>
-              </div>
-              <div className="col-5 d-flex justify-content-center align-items-center">
->>>>>>> 78a3f37a9354746e2d4a3e2ce4cc28bf9de0916e
                   <div className="input-group">
                       <span className="input-group-text" id="basic-addon1"><BsSearch /></span>
                       <input type="text" className="form-control" placeholder="Search Products, brands and categories" aria-label="Search Products, brands and categories" aria-describedby="basic-addon2" />
@@ -72,24 +65,19 @@ const Header = () => {
               </div>
               <div className="col-3">
                 <div className="header-bottom-links d-flex align-items-center justify-content-end">
-                  <div className='d-flex align-items-center'>
-                    <Link className='g-10 d-flex align-items-center text-dark link-text'>
+                  <div className='g-10 d-flex align-items-center'>
+                    <Link className='me-2 d-flex align-items-center text-dark link-text'>
                       <BsPerson size={32} className='link-icons'/>
                       <p className='link-text mb-0 fw-semibold'>Account</p>
                       <IoIosArrowDown className='link-arrow-down' />
                     </Link>
 
-                    <Link className='me-3 g-10 d-flex align-items-center text-dark link-text'>
+                    <Link className='me-2 d-flex align-items-center text-dark link-text'>
                       <IoIosHelpCircleOutline size={32}/>
                       <p className='link-text mb-0 fw-semibold'>Help</p>
                       <IoIosArrowDown />
                     </Link>
-
-<<<<<<< HEAD
-                    <Link to={'cart'} className='g-10 d-flex align-items-center text-dark link-text'>
-=======
-                    <Link className='g-10 d-flex align-items-center text-dark link-text' to='/cart'>
->>>>>>> 78a3f37a9354746e2d4a3e2ce4cc28bf9de0916e
+                    <Link className='me-2 d-flex align-items-center text-dark link-text' to='/cart'>
                       <IoCartOutline size={32} className='link-icons'/>
                       <p className='link-text mb-0 fw-semibold'>Cart</p>
                     </Link>

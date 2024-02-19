@@ -28,7 +28,21 @@ import imageNine from '../../apiData/imageNine'
 
 const Category = () => {
   return (
-    <div>Category</div>
+    <div className="container">
+      <div className="row">
+        <div className="col-12">Banner</div>
+      </div>
+      <div className="row">
+        <div className='box mb-0'>
+          <p className="text-center mb-0">Phones & Tablets</p>
+        </div>
+      </div>
+      <div className="row">
+        <div className='boxx mb-0'>
+          <p className="text-center mb-0 text-white">CALL TO ORDER 07006000000</p>
+        </div>
+      </div>
+    </div>
   )
 }
 

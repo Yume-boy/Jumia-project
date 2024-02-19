@@ -14,7 +14,6 @@ import { Autoplay, Pagination, Navigation, Mousewheel } from 'swiper/modules';
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsShop } from "react-icons/bs";
 import { GrDropbox } from "react-icons/gr";
-import { Link } from 'react-router-dom';
 
 const LinkSection = () => {
   const [show, useShow] = useState('d-none')
@@ -150,21 +149,6 @@ useShow12('d-none')
         <div className="row p-5 p-sm-2">
           <div className="d-md-none d-sm-none d-lg-block col-lg-2 px- position-relative">
             <div className='links mx-0'>
-<<<<<<< HEAD
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent1}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent2}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent3}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent4}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent5}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent6}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent7}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent8}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent9}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent10}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent11}>Supermarket</Link>
-              <Link to={'category'} onMouseEnter={showContent} onMouseLeave={hideContent12}>Supermarket</Link>
-=======
               <Link to='/category' href="" onMouseEnter={showContent} onMouseLeave={hideContent}>Supermarket</Link>
               <Link to='/category' href="" onMouseEnter={showContent1} onMouseLeave={hideContent1}>Supermarket</Link>
               <Link to='/category' href="" onMouseEnter={showContent2} onMouseLeave={hideContent2}>Supermarket</Link>
@@ -178,7 +162,6 @@ useShow12('d-none')
               <Link to='/category' href=""onMouseEnter={showContent10} onMouseLeave={hideContent10}>Supermarket</Link>
               <Link to='/category' href=""onMouseEnter={showContent11} onMouseLeave={hideContent11}>Supermarket</Link>
               <Link to='/category' href=""onMouseEnter={showContent12} onMouseLeave={hideContent12}>Supermarket</Link>
->>>>>>> 78a3f37a9354746e2d4a3e2ce4cc28bf9de0916e
             </div>
             <div className={`position-absolute second ${show}`} >
                         <div class="row">

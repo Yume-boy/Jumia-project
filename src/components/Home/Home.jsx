@@ -44,10 +44,7 @@ function Home() {
       <ProductSection data={imageEight}/>
       <ProductSection data={imageNine}/>
       <Card data={cardData5} title ='Computing Deals'/>
-<<<<<<< HEAD
       <Card data={cardData6} title ='Health And Beauty'/>
-=======
->>>>>>> 78a3f37a9354746e2d4a3e2ce4cc28bf9de0916e
       <Essay />
     </div>
   );
