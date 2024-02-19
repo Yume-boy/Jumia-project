@@ -1,0 +1,33 @@
+.filter {
+    border-radius: 5px !important;
+}
+
+h6 {
+    font-size: .9rem !important;
+    font-weight: 600;
+}
+
+.side-menu {
+    padding-left: 10px;
+    padding: 8px 24px !important;
+    font-size: .9rem !important;
+    font-weight: normal;
+}
+
+.side-menu:hover {
+    background-color: #dedede;
+    width: 100%;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #dcdcdc !important;
+}
+
+.input-group {
+    border-radius: 20px !important;
+}
+
+input {
+    border-left: none;
+}
