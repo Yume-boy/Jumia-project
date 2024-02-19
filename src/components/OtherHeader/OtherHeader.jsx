@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from "react-router-dom";
-import './Header.css';
+import './OtherHeader.css';
 import { MdStars } from "react-icons/md";
 import { BsSearch, BsPerson } from "react-icons/bs";
 import { IoIosArrowDown, IoIosHelpCircleOutline } from "react-icons/io";import { IoCartOutline } from "react-icons/io5";
@@ -100,4 +100,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default OtherHeader
