@@ -20,16 +20,13 @@ const Categories = () => {
   const render2 = cardData.map((card,idx) => {
       return (
         <div key={idx} className=''>
-            <SwiperSlide>
-               
-          <div class='no'>
-              <div id='yes'><img src={card.imagesrc} /></div>
-          <p>{card.productName}</p>
-              
-              
+            <SwiperSlide> 
+              <div class='no'>
+                  <div id='yes'><img src={card.imagesrc} /></div>
+                   <p>{card.productName}</p> 
               </div>    
-          </SwiperSlide>
-          </div>
+             </SwiperSlide>
+        </div>
       )
   })
 
@@ -42,8 +39,8 @@ const Categories = () => {
         slidesPerView={1}
         spaceBetween={10}
         mousewheel={true}
-        freeMode={true}
-        scrollbar={true}
+        freeMode={true} 
+        // scrollbar={true}
          breakpoints={{
           '@0.00': {
             slidesPerView: 5,

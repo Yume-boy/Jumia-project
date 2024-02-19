@@ -67,7 +67,11 @@ const Footer = () => {
                 <Link className='text-white footer-link '>
                   Help Center
                 </Link>
+<<<<<<< HEAD
                 <Link to={'contact'} className='text-white footer-link '>
+=======
+                <Link className='text-white footer-link ' to='/contact'>
+>>>>>>> 78a3f37a9354746e2d4a3e2ce4cc28bf9de0916e
                   Contact Us
                 </Link>
               </div>
@@ -109,7 +113,11 @@ const Footer = () => {
             <div className="col-3 pe-5 py-4 ">
               <h4 className='text-white ps-5 mb-1 left-text-header'>ABOUT JUMIA</h4>
               <div className='left-text-content ps-5 py-2 mb-2 d-flex flex-column'>
+<<<<<<< HEAD
                 <Link to={'about'} className='text-white footer-link '>
+=======
+                <Link className='text-white footer-link ' to ='/about'>
+>>>>>>> 78a3f37a9354746e2d4a3e2ce4cc28bf9de0916e
                   About us
                 </Link>
                 <Link className='text-white footer-link '>

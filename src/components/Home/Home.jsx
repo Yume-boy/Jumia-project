@@ -28,21 +28,26 @@ function Home() {
       <LinkSection />
       <Categories />
       <ProductSection data={imageOne}/>
-      <BannerCarousel />
       <ProductSection data={imageTwo}/>
-      <Card data={cardData1} title = 'Appliances Upgrade'/>
+      <Card data={cardData6} title ='Health And Beauty'/>
       <ProductSection data={imageThree}/>
+      <Card data={cardData1} title = 'Appliances Upgrade'/>
       <ProductSection data={imageFour}/>
+      <BannerCarousel show2='d-none'/>
       <ProductSection data={imageFive}/>
-      <ProductSection data={imageSix}/>
-      <ProductSection data={imageSeven}/>
-      <ProductSection data={imageEight}/>
-      <ProductSection data={imageNine}/>
       <Card data={cardData2} title ='Shop From Our Collections'/>
       <Card data={cardData3} title ='Phone Deals'/>
+      <ProductSection data={imageSix}/>
+      <BannerCarousel show1='d-none'/>
+      <ProductSection data={imageSeven}/>
       <Card data={cardData4} title ='Jumia Football Zones'/>
+      <ProductSection data={imageEight}/>
+      <ProductSection data={imageNine}/>
       <Card data={cardData5} title ='Computing Deals'/>
+<<<<<<< HEAD
       <Card data={cardData6} title ='Health And Beauty'/>
+=======
+>>>>>>> 78a3f37a9354746e2d4a3e2ce4cc28bf9de0916e
       <Essay />
     </div>
   );
