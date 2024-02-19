@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from "react-router-dom";
-import './Header.css';
+import './OtherHeader.css';
 import { MdStars } from "react-icons/md";
 import { BsSearch, BsPerson } from "react-icons/bs";
 import { IoIosArrowDown, IoIosHelpCircleOutline } from "react-icons/io";import { IoCartOutline } from "react-icons/io5";
@@ -65,19 +65,20 @@ const Header = () => {
               </div>
               <div className="col-3">
                 <div className="header-bottom-links d-flex align-items-center justify-content-end">
-                  <div className='g-10 d-flex align-items-center'>
-                    <Link className='me-2 d-flex align-items-center text-dark link-text'>
+                  <div className='d-flex align-items-center'>
+                    <Link className='g-10 d-flex align-items-center text-dark link-text'>
                       <BsPerson size={32} className='link-icons'/>
                       <p className='link-text mb-0 fw-semibold'>Account</p>
                       <IoIosArrowDown className='link-arrow-down' />
                     </Link>
 
-                    <Link className='me-2 d-flex align-items-center text-dark link-text'>
+                    <Link className='me-3 g-10 d-flex align-items-center text-dark link-text'>
                       <IoIosHelpCircleOutline size={32}/>
                       <p className='link-text mb-0 fw-semibold'>Help</p>
                       <IoIosArrowDown />
                     </Link>
-                    <Link className='me-2 d-flex align-items-center text-dark link-text' to='/cart'>
+
+                    <Link to={'cart'} className='g-10 d-flex align-items-center text-dark link-text'>
                       <IoCartOutline size={32} className='link-icons'/>
                       <p className='link-text mb-0 fw-semibold'>Cart</p>
                     </Link>
@@ -99,4 +100,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default OtherHeader

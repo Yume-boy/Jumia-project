@@ -1,3 +1,4 @@
+<<<< HEAD
 .about-text {
     color: #f90;
     font-size: 34px;
@@ -41,7 +42,6 @@
 }
 
 .sub-1 {
-    margin-top: ;
     text-align: center;
     padding-left: 30px;
 
@@ -466,4 +466,8 @@ img {
     color: #fff;
     width: 150px;
     height: 40px;
+=======
+.header-bottom-strip .menu {
+    display: flex;
+>>>>>>> c828958fa65546badb7c5695259cb946f540668b
 }

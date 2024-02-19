@@ -49,6 +49,7 @@
 
 .g-10 {
     gap: 10px !important;
+    margin-right: 7px !important;
 }
 
 .link-text:hover {
@@ -56,7 +57,7 @@
 }
 
 .header-bottom-strip .menu {
-    display: none !important;
+    display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
@@ -81,20 +82,12 @@
 
 .menu-main img {
     margin-left: 10px !important;
-} 
-
-.menu {
-    display: none;
 }
 
 @media (max-width: 767px) {
 
     .menu-main .px-5 {
         padding: 0 !important;
-    }
-
-    .header-bottom-strip .menu {
-        display: flex !important;
     }
 
     .menu-main img {
@@ -134,16 +127,8 @@
         justify-content: space-between;
     }
 
-    .menu {
-        margin-left: 10px !important;
-    }
-
     .header-bottom-links p {
         display: none !important;
-    }
-
-    .header-bottom-links .me-2 {
-        margin-right: 0 !important;
     }
 
     .link-arrow-down {
@@ -155,6 +140,6 @@
     }
 
     .link-text {
-        padding-left: 10px !important;
+        padding: 10px !important;
     }
 }

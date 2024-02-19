@@ -44,6 +44,7 @@ function Home() {
       <ProductSection data={imageEight}/>
       <ProductSection data={imageNine}/>
       <Card data={cardData5} title ='Computing Deals'/>
+      <Card data={cardData6} title ='Health And Beauty'/>
       <Essay />
     </div>
   );
