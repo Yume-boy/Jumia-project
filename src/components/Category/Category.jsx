@@ -42,6 +42,18 @@ const Category = () => {
           <p className="text-center mb-0 text-white">CALL TO ORDER 07006000000</p>
         </div>
       </div>
+
+      <div className='mt-4'>
+      <ProductSection data={imageFive}/>
+      <Card data={cardData3} title ='Phone Deals'/>
+      <ProductSection data={imageFive}/>
+      <OfficialStore/>
+      <div className='row'>
+        <div className='col-3 d-none d-lg-block'><FilterSection/></div>
+        <div className='col-12 col-lg-9 '><CategoryProducts/></div>
+      </div>
+      <CategoryEssay/>
+      </div>
     </div>
   )
 }
