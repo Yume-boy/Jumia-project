@@ -74,9 +74,9 @@ const CategoryProducts = () => {
 
   return (
     <div>
-      <div className='my-4 bg-white pt-2 px-2 categoryProducts'>
+      <div className='my-1 bg-white pt-2 px-3 categoryProducts'>
         <div className='d-flex justify-content-between first'>
-          <h3>Phones, Tablets & Accessories</h3>
+          <h3 className='fw-bold'>Phones, Tablets & Accessories</h3>
           <h4>Sort by: Popularity </h4>
         </div>
         <hr />
