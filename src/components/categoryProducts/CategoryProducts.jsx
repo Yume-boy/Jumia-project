@@ -5,6 +5,7 @@ import phones from '../../apiData/phones&gadget'
 import { FaStar } from "react-icons/fa";
 import { CgDisplayGrid } from "react-icons/cg";
 import { CgDisplaySpacing } from "react-icons/cg";
+import { useCart } from 'react-use-cart';
 
 const CategoryProducts = () => {
 
@@ -21,6 +22,8 @@ const CategoryProducts = () => {
     setGrid2('d-block')
   }
 
+  const { addItem } = useCart()
+
 
 
   const render = phones.map((data, yes)=>{
@@ -29,15 +32,15 @@ const CategoryProducts = () => {
             <div className='data'><img src={data.imageUrl} alt="" /></div>
             <p className='overFlow'>{data.name}</p>
             <div>
-              <p className='pp1'>{data.newPrice}</p>
-              <p className='pp2'>{data.oldPrice}</p>
+              <p className='pp1'>{data.new}</p>
+              <p className='pp2'>{data.old}</p>
             </div>
             <div className='star'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></div>
             <div className='express'>
               <img src="https://vendorhub.jumia.co.ke/wp-content/uploads/2017/08/Jumia-Express-logo-e1556633520715.png" alt="" />
             </div>
             <div className={`add text-center py-2 mt-3 mb-2`}>
-              <h5>ADD TO CART</h5>
+              <h5 onClick={()=>addItem(data)}>ADD TO CART</h5>
             </div>
           </div>
         )
@@ -61,7 +64,7 @@ const CategoryProducts = () => {
           <img src="https://vendorhub.jumia.co.ke/wp-content/uploads/2017/08/Jumia-Express-logo-e1556633520715.png" alt="" />
         </div>
         <div className={`add-2 text-center py-2 mt-3 mb-2`}>
-          <h5>ADD TO CART</h5>
+          <h5 onClick={()=>addItem(data)}>ADD TO CART</h5>
         </div>  
         </div>
        </div>

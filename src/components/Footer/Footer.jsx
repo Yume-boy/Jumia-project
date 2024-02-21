@@ -61,148 +61,148 @@ const Footer = () => {
             <div className="col-3 pe-5 py-4 ">
               <h4 className='text-white ps-5 mb-1 left-text-header'>NEED HELP?</h4>
               <div className='left-text-content ps-5 py-2 mb-2 d-flex flex-column'>
-                <Link className='text-white footer-link '>
+                <a className='text-white footer-link '>
                   Chat with us
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Help Center
-                </Link>
-                <Link className='text-white footer-link ' to='/contact'>
+                </a>
+                <a className='text-white footer-link ' href='/contact'>
                   Contact Us
-                </Link>
+                </a>
               </div>
 
               <h4 className='text-white ps-5 mb-1 left-text-header'>USEFUL LINKS</h4>
               <div className='left-text-content ps-5 py-2 mb-2 d-flex flex-column'>
-                <Link className='text-white footer-link '>
+                <a className='text-white footer-link '>
                   Service Center
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   How to shop on Jumia?
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Delivery options and timelines
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   How to return a product on Jumia?
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Corporate and bulk purchases
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Report a Product
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Ship your package anywhere in Nigeria
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Dispute Resolution Policy
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Returns & Refund Timeline
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Return Policy
-                </Link>
+                </a>
               </div>
             </div>
             <div className="col-3 pe-5 py-4 ">
               <h4 className='text-white ps-5 mb-1 left-text-header'>ABOUT JUMIA</h4>
               <div className='left-text-content ps-5 py-2 mb-2 d-flex flex-column'>
-                <Link className='text-white footer-link ' to ='/about'>
+                <a className='text-white footer-link ' href ='/about'>
                   About us
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Jumia careers
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Jumia Express
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Terms and Conditions
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Privacy Notice
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Jumia Store Credit Terms & Conditions
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Jumia Payment Information Guidelines
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Cookie Notice
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Jumia Global
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Official Stores
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Flash Sales
-                </Link>
+                </a>
               </div>
             </div>
             <div className="col-3 pe-5 py-4 ">
               <h4 className='text-white ps-5 mb-1 left-text-header'>NEED HELP?</h4>
               <div className='left-text-content ps-5 py-2 mb-2 d-flex flex-column'>
-                <Link className='text-white footer-link '>
+                <a className='text-white footer-link '>
                   Sell on Jumia
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Vendor hub
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Become a Sales Consultant
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Become a Logistics Service Partner
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Join the Jumia DA Academy
-                </Link>
-                <Link className='text-white footer-link '>
+                </a>
+                <a className='text-white footer-link '>
                   Join the Jumia KOL Program
-                </Link>
+                </a>
               </div>
             </div>
             <div className="col-3 pe-5 py-4 ">
               <h4 className='text-white ps-5 mb-1 left-text-header'>JUMIA INTERNATIONAL</h4>
               <div className="d-flex">
                 <div className='left-text-content ps-5 py-2 mb-2 d-flex flex-column'>
-                  <Link className='text-white footer-link '>
+                  <a className='text-white footer-link '>
                     Algeria
-                  </Link>
-                  <Link className='text-white footer-link '>
+                  </a>
+                  <a className='text-white footer-link '>
                     Egypt
-                  </Link>
-                  <Link className='text-white footer-link '>
+                  </a>
+                  <a className='text-white footer-link '>
                     Ghana
-                  </Link>
-                  <Link className='text-white footer-link '>
+                  </a>
+                  <a className='text-white footer-link '>
                     Ivory Coast
-                  </Link>
-                  <Link className='text-white footer-link '>
+                  </a>
+                  <a className='text-white footer-link '>
                     Kenya
-                  </Link>
+                  </a>
                 </div>
                 <div className='left-text-content ps-5 py-2 mb-2 d-flex flex-column'>
-                  <Link className='text-white footer-link '>
+                  <a className='text-white footer-link '>
                     Morocco
-                  </Link>
-                  <Link className='text-white footer-link '>
+                  </a>
+                  <a className='text-white footer-link '>
                     Senegal
-                  </Link>
-                  <Link className='text-white footer-link '>
+                  </a>
+                  <a className='text-white footer-link '>
                     Tunisia
-                  </Link>
-                  <Link className='text-white footer-link '>
+                  </a>
+                  <a className='text-white footer-link '>
                     Uganda
-                  </Link>
-                  <Link className='text-white footer-link '>
+                  </a>
+                  <a className='text-white footer-link '>
                     Zando
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

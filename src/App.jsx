@@ -7,11 +7,13 @@ import Contact from './components/Contact/Contact';
 import './App.css'
 import Cart from './components/Cart/Cart';
 import Category from './components/Category/Category';
+import { CartProvider } from 'react-use-cart';
 
 
 const App = () => {
   return (
     <div>
+      <CartProvider>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Layout />}>
@@ -23,6 +25,7 @@ const App = () => {
           </Route>
         </Routes>
       </BrowserRouter>
+      </CartProvider>
     </div>
   )
 }

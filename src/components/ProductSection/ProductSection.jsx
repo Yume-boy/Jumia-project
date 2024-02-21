@@ -1,6 +1,4 @@
 import './ProductSection.css'
-
-
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -36,12 +34,13 @@ const ProductSection = (props) => {
       )
   })
   return (
-    <div className="">
+    <div className="my-3">
       <div className="">
       
         <div className=" cover">
-        <div className='card-text'>
-                <h4>content</h4>
+        <div className='card-text d-flex justify-content-between px-2' style={{backgroundColor: `${props.color}`}}>
+                <h4>{props.left}</h4>
+                <h4 className='see-all'>{props.Right}</h4>
             </div>
           <Swiper
         slidesPerView={size.width < 768 ? 3 : 6}

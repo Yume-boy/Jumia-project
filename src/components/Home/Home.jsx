@@ -27,10 +27,10 @@ function Home() {
     <div className=' container'>
       <LinkSection />
       <Categories />
-      <ProductSection data={imageOne}/>
-      <ProductSection data={imageTwo}/>
+      <ProductSection data={imageOne}  left='Appliances' Right="See all >" color='#fff'/>
+      <ProductSection data={imageTwo} left='Appliances' Right="See all >" color='#f43f44'/>
       <Card data={cardData6} title ='Health And Beauty'/>
-      <ProductSection data={imageThree}/>
+      <ProductSection data={imageThree} left='Appliances' Right="See all >" color='#fff'/>
       <Card data={cardData1} title = 'Appliances Upgrade'/>
       <ProductSection data={imageFour}/>
       <BannerCarousel show2='d-none'/>
