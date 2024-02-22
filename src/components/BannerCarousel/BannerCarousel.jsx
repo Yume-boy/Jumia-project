@@ -59,6 +59,9 @@ const BannerCarousel = (props) => {
         <SwiperSlide><img src="https://ng.jumia.is/cms/0-1-initiatives/jbps/2024/CHI_LIMITED/CHI_Desktop_MLP_Slider__1168x384.jpg" alt="" /></SwiperSlide>
       </Swiper>
         </div>
+
+
+        
     </div>
   )
 }
