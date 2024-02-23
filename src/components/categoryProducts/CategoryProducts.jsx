@@ -6,6 +6,7 @@ import { FaStar } from "react-icons/fa";
 import { CgDisplayGrid } from "react-icons/cg";
 import { CgDisplaySpacing } from "react-icons/cg";
 import { useCart } from 'react-use-cart';
+import { Link } from 'react-router-dom';
 
 const CategoryProducts = () => {
 
@@ -29,21 +30,23 @@ const CategoryProducts = () => {
   const render = phones.map((data, yes)=>{
         return (
           <div key={yes} className ='col-lg-3 col-6 col-md-4 my-2 item'>
-            <div className='data'><img src={data.imageUrl} alt="" /></div>
-            <p className='overFlow'>{data.name}</p>
-            <div>
-              <p className='pp1'>{data.new}</p>
-              <p className='pp2'>{data.old}</p>
-            </div>
-            <div className='star'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></div>
-            <div className='express'>
-              <img src="https://vendorhub.jumia.co.ke/wp-content/uploads/2017/08/Jumia-Express-logo-e1556633520715.png" alt="" />
-            </div>
+            <a href={`/productDetail/${data.id}`} className='text-reset'>
+              <div className='data'><img src={data.imageUrl} alt="" /></div>
+              <p className='overFlow'>{data.name}</p>
+              <div>
+                <p className='pp1'>{data.new}</p>
+                <p className='pp2'>{data.old}</p>
+              </div>
+              <div className='star'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></div>
+              <div className='express'>
+                <img src="https://vendorhub.jumia.co.ke/wp-content/uploads/2017/08/Jumia-Express-logo-e1556633520715.png" alt="" />
+              </div>
+            </a>
             <div className={`add text-center py-2 mt-3 mb-2`}>
               <h5 onClick={()=>addItem(data)}>ADD TO CART</h5>
             </div>
           </div>
-        )
+        ) 
   })
 
   const render2 = phones.map((data, yes)=>{
@@ -52,12 +55,12 @@ const CategoryProducts = () => {
         <div className='data me-2'><img src={data.imageUrl} alt="" /></div>
        <div className='w-100'>
           <div className=' lord w-100'>
-          <p className='main-pp'>{data.name}</p>
+            <p className='main-pp'>{data.name}</p>
             <div>
-              <p className='main-pp1'>{data.newPrice}</p>
-              <p className='main-pp2'>{data.oldPrice}</p>
+              <p className='main-pp1'>{data.new}</p>
+              <p className='main-pp2'>{data.old}</p>
             </div>
-       </div>
+          </div>
         <div className='star'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></div>
         <div className='lord-2 justify-content-between align-items-center'>
         <div className='express'>

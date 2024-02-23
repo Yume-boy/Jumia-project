@@ -1,62 +1,62 @@
 const firstCard = [
   {
     id: 1,
-    imagesrc: "../src/components/cards/images/artboard-12.gif",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1.png",
     productName: "Clearance Sales"
   },
   {
     id: 11,
-    imagesrc: "../src/components/cards/images/artboard-10.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1.png",
     productName: "Best deals"
   },
   {
     id: 2,
-    imagesrc: "../src/components/cards/images/artboard-1.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_2.png",
     productName: "Phones & Tablets"
   },
   {
     id: 3,
-    imagesrc: "../src/components/Cards/images/artboard-1.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_6.png",
     productName: "Computing Deals"
   },
   {
     id: 4,
-    imagesrc: "../src/components/cards/images/artboard-3.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_5.png",
     productName: "Groceries"
   },
   {
     id: 5,
-    imagesrc: "../src/components/cards/images/artboard-4.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_9.png",
     productName: "Televisions"
   },
   {
     id: 6,
-    imagesrc: "../src/components/cards/images/artboard-5.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_8.png",
     productName: "Men's Sneakers"
   },
   {
     id: 7,
-    imagesrc: "../src/components/cards/images/artboard-6.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_10.png",
     productName: "Mobile Accesories"
   },
   {
     id: 8,
-    imagesrc: "../src/components/cards/images/artboard-7.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_7.png",
     productName: "Generators"
   },
   {
     id: 9,
-    imagesrc: "../src/components/cards/images/artboard-8.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_3.png",
     productName: "Refrigerators"
   },
   {
     id: 10,
-    imagesrc: "../src/components/cards/images/artboard-9.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_4.png",
     productName: "Official store deals"
   },
   {
     id: 12,
-    imagesrc: "../src/components/cards/images/artboard-11.png",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_12.png",
     productName: "#5,000 store"
   }
 ]

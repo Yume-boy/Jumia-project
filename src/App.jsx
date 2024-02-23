@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import ProductDetails from './components/productDetails/ProductDetails';
 import './App.css'
 import Cart from './components/Cart/Cart';
 import Category from './components/Category/Category';
@@ -22,6 +23,7 @@ const App = () => {
             <Route path='/contact' element={<Contact />} />
             <Route path='/cart' element={<Cart />} />
             <Route path='/category' element={<Category />} />
+            <Route path='/productDetail/:id' element={<ProductDetails />} />
           </Route>
         </Routes>
       </BrowserRouter>

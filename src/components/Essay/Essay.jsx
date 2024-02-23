@@ -3,9 +3,9 @@ import './Essay.css'
 
 const Essay = () => {
   return (
-    <div className="p essay-text">
+    <div className="pb-3 essay-text">
       <section class="">
-        <div class="card p-2">
+        <div class="bg-white p-2">
           <div class="">
             <h1><strong>Jumia Nigeria - Nigeria's No. 1 Shopping Destination</strong></h1>
             <h2><strong>Shop for Everything You Need on Jumia Nigeria</strong></h2>

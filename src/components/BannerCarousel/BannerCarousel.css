@@ -45,3 +45,20 @@
     height: 350px;
 
   }
+
+  .banner-official {
+    border-radius: 7px;
+  }
+
+  .banner-official img {
+    height: 80px;
+  } 
+
+  .official h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .official {
+    background-color: #fee2cc;
+  }

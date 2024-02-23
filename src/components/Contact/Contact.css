@@ -52,7 +52,7 @@
     border-radius: 7px;
 }
 
-.p {
+.please {
     color: #fff;
     font-size: 13px;
     font-weight: bold;
@@ -65,4 +65,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
+}
+
+.offers img {
+    width: 100%;
 }

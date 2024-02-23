@@ -1,7 +1,8 @@
 
-.appliances{
+.apply{
     margin-bottom: 10px;
     background-color: white;
+    border-radius: 7px;
 }
 
 .items img{
@@ -12,13 +13,14 @@
 
 
 
-.appliances .card-text {
-    background-color: #C3DEF0;
+.apply .card-text {
+    background-color: #fee2cc;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 0 0 0;
+    border-radius: 7px 7px 0 0;
 }
 
 .items p{

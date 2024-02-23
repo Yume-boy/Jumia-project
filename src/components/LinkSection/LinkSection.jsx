@@ -13,7 +13,19 @@ import { Autoplay, Pagination, Navigation, Mousewheel } from 'swiper/modules';
 
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsShop } from "react-icons/bs";
+import { GiEyelashes } from "react-icons/gi";
 import { GrDropbox } from "react-icons/gr";
+import { CiApple } from "react-icons/ci";
+import { PiCookingPotBold } from "react-icons/pi";
+import { GoHome } from "react-icons/go";
+import { HiOutlineDotsCircleHorizontal } from "react-icons/hi";
+import { IoPhonePortraitOutline } from "react-icons/io5";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { PiTelevisionSimple } from "react-icons/pi";
+import { IoGameControllerOutline } from "react-icons/io5";
+import { CiDumbbell } from "react-icons/ci";
+import { PiTShirt } from "react-icons/pi";
+import { LuBaby } from "react-icons/lu";
 
 const LinkSection = () => {
   const [show, useShow] = useState('d-none')
@@ -146,22 +158,21 @@ useShow12('d-none')
         <h4 className='mb-0 link-header'>CALL TO ORDER: 0700 600 0000</h4>
       </div>
       <div className="">
-        <div className="row p-5 p-sm-2">
-          <div className="d-md-none d-sm-none d-lg-block col-lg-2 px- position-relative">
+        <div className="row  p-sm-2 g-2">
+          <div className="d-md-none d-sm-none d-lg-block col-lg-2  position-relative">
             <div className='links mx-0'>
-              <Link to='/category' href="" onMouseEnter={showContent} onMouseLeave={hideContent}>Supermarket</Link>
-              <Link to='/category' href="" onMouseEnter={showContent1} onMouseLeave={hideContent1}>Supermarket</Link>
-              <Link to='/category' href="" onMouseEnter={showContent2} onMouseLeave={hideContent2}>Supermarket</Link>
-              <Link to='/category' href="" onMouseEnter={showContent3} onMouseLeave={hideContent3}>Supermarket</Link>
-              <Link to='/category' href="" onMouseEnter={showContent4} onMouseLeave={hideContent4}>Supermarket</Link>
-              <Link to='/category' href="" onMouseEnter={showContent5} onMouseLeave={hideContent5}>Supermarket</Link>
-              <Link to='/category' href="" onMouseEnter={showContent6} onMouseLeave={hideContent6}>Supermarket</Link>
-              <Link to='/category' href="" onMouseEnter={showContent7} onMouseLeave={hideContent7}>Supermarket</Link>
-              <Link to='/category' href="" onMouseEnter={showContent8} onMouseLeave={hideContent8}>Supermarket</Link>
-              <Link to='/category' href="" onMouseEnter={showContent9} onMouseLeave={hideContent9}>Supermarket</Link>
-              <Link to='/category' href=""onMouseEnter={showContent10} onMouseLeave={hideContent10}>Supermarket</Link>
-              <Link to='/category' href=""onMouseEnter={showContent11} onMouseLeave={hideContent11}>Supermarket</Link>
-              <Link to='/category' href=""onMouseEnter={showContent12} onMouseLeave={hideContent12}>Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent} onMouseLeave={hideContent}><div className='icon1'><CiApple /></div> Supermarket</Link>
+              <Link to='/category' href="" onMouseEnter={showContent1} onMouseLeave={hideContent1}><div className='icon1'><GiEyelashes /></div> Health & Beauty</Link>
+              <Link to='/category' href="" onMouseEnter={showContent2} onMouseLeave={hideContent2}><div className='icon1'><GoHome /></div>Home & Office</Link>
+              <Link to='/category' href="" onMouseEnter={showContent3} onMouseLeave={hideContent3}><div className='icon1'><PiCookingPotBold /></div>Appliances</Link>
+              <Link to='/category' href="" onMouseEnter={showContent4} onMouseLeave={hideContent4}><div className='icon1'><IoPhonePortraitOutline /></div>Phones & Tablet</Link>
+              <Link to='/category' href="" onMouseEnter={showContent5} onMouseLeave={hideContent5}><div className='icon1'><HiOutlineDesktopComputer /></div>Computing</Link>
+              <Link to='/category' href="" onMouseEnter={showContent6} onMouseLeave={hideContent6}><div className='icon1'><PiTelevisionSimple /></div>Electronics</Link>
+              <Link to='/category' href="" onMouseEnter={showContent7} onMouseLeave={hideContent7}><div className='icon1'><PiTShirt /></div>Fashion</Link>
+              <Link to='/category' href="" onMouseEnter={showContent8} onMouseLeave={hideContent8}><div className='icon1'><LuBaby /></div>Baby Product</Link>
+              <Link to='/category' href="" onMouseEnter={showContent9} onMouseLeave={hideContent9}><div className='icon1'><IoGameControllerOutline /></div>Gaming</Link>
+              <Link to='/category' href=""onMouseEnter={showContent10} onMouseLeave={hideContent10}><div className='icon1'><CiDumbbell /></div>Sporting Goods</Link>
+              <Link to='/category' href=""onMouseEnter={showContent11} onMouseLeave={hideContent11}><div className='icon1'><HiOutlineDotsCircleHorizontal /></div>Other categories</Link>
             </div>
             <div className={`position-absolute second ${show}`} >
                         <div class="row">
@@ -611,7 +622,6 @@ useShow12('d-none')
           disableOnInteraction: false,
         }}
         loop={true}
-        navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper d-none d-lg-block"
 
@@ -683,7 +693,7 @@ useShow12('d-none')
                 <h6 className='ps-2'>Best Deals</h6>
                </div>
             </div>
-            <img src="src/components/LinkSection/JForce (1).png" alt="" style={{width :'100%', height:'180px'}} />
+            <img src="src/components/LinkSection/JForce (1).png" alt="" />
             
           </div>
         </div>
