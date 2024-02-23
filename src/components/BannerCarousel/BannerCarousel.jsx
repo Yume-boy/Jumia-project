@@ -79,7 +79,7 @@ const BannerCarousel = (props) => {
               </div>
             </div>
           
-            <div className={``}>
+            <div className={`mt-4 g-2 px-2`}>
               <div className={`row col-lg py-3 `}>
                 <img style={{height:'110px', width:'185px', marginLeft:'5px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/binatone_260x144.png" alt="" />
 
@@ -92,14 +92,65 @@ const BannerCarousel = (props) => {
                 <img style={{height:'110px', width:'185px'}}  src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/tecno_260x144.png" alt="" />
 
                 <img style={{height:'110px', width:'185px'}}  src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/bacardi-bacardi_260x144.png" alt="" />
-                
+
               </div>
             </div>
-
-            
           </div>
+          
           <div className='d-lg-none'>
+          <h4>Official Stores</h4>
+            <div className="row col-lg-4">
+              <div className={` mt-2 g-1 px-2`}>
+                <div className={`row col-lg-4 py-3 `} >
+                  <img style={{height:'110px', width:'180px', marginLeft:'5px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/xiaomi_260x144.png" alt="" />
 
+                  <img style={{height:'110px', width:'180px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/nivea_260x144.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/diageo_260x144.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/oraimo_260x144.png" alt="" />
+                  
+                </div>
+              </div>
+
+              <div className={`g-1 px-2`}>
+                <div className={`row col-lg-4 py-3`}>
+                  <img style={{height:'110px', width:'180px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/adidas_260x144_V2.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/reckitt_260x144.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px', marginLeft:'5px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/binatone_260x144.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px'}}  src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/haier-thermocool_260x144.png" alt="" />
+                </div>
+              </div>
+          
+              <div className={`g-1 px-2`}>
+                <div className={`row col-lg-4 py-3 `}>
+                  <img style={{height:'110px', width:'180px'}}  src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/Brand-design-update/Pernod_ricard.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px'}}  src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/infinix_260x144v2.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px'}}  src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/tecno_260x144.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px'}}  src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/bacardi-bacardi_260x144.png" alt="" />
+
+                </div>
+              </div>
+
+              <div className={`g-1 px-2`}>
+                <div className={`row col-lg-4 py-3`}>
+                  <img style={{height:'110px', width:'180px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/nexus_260x144.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/binatone_260x144.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/defacto_260x144.png" alt="" />
+
+                  <img style={{height:'110px', width:'180px'}} src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/unilever-hb_260x144.png" alt="" />
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
     </div>
