@@ -175,422 +175,422 @@ useShow12('d-none')
               <Link to='/category' href=""onMouseEnter={showContent11} onMouseLeave={hideContent11}><div className='icon1'><HiOutlineDotsCircleHorizontal /></div>Other categories</Link>
             </div>
             <div className={`position-absolute second ${show}`} >
-                        <div class="row">
-                  <div class="col-6 col-md-4 mb-1">
+                        <div className="row">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
             </div>
             <div className={`position-absolute second ${show1}`} >
-            <div class="row">
-                  <div class="col-6 col-md-4 mb-1">
+            <div className="row">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
             </div>
             <div className={`position-absolute second ${show2}`} >
-            <div class="row">
-                  <div class="col-6 col-md-4 mb-1">
+            <div className="row">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
             </div>
             <div className={`position-absolute second ${show3}`} >
-            <div class="row">
-                  <div class="col-6 col-md-4 mb-1">
+            <div className="row">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
             </div>
             <div className={`position-absolute second ${show4}`} >
-            <div class="row">
-                  <div class="col-6 col-md-4 mb-1">
+            <div className="row">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
-                    </ul>
-                  </div>
-
-                  <div class="col-6 col-md-4 mb-1">
-                    <h6 className='mb-1'>Section</h6>
-                    <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
+                    </ul>
+                  </div>
+
+                  <div className="col-6 col-md-4 mb-1">
+                    <h6 className='mb-1'>Section</h6>
+                    <hr />
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
             </div>
             <div className={`position-absolute second ${show5}`} >
-            <div class="row">
-                  <div class="col-6 col-md-4 mb-1">
+            <div className="row">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
             </div>
             <div className={`position-absolute second ${show6}`} >
-            <div class="row">
-                  <div class="col-6 col-md-4 mb-1">
+            <div className="row">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
 
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
             
             </div>
             <div className={`position-absolute second ${show7}`} >
-            <div class="row">
-                  <div class="col-6 col-md-4 mb-1">
+            <div className="row">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
 
-                  <div class="col-6 col-md-4 mb-1">
+                  <div className="col-6 col-md-4 mb-1">
                     <h6 className='mb-1'>Section</h6>
                     <hr />
-                    <ul class="nav flex-column mb-2">
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Home</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Features</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">Pricing</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">FAQs</Link></li>
-                      <li class="nav-item "><Link to='/category' href="#" class="nav-link p-0 text-body-secondary">About</Link></li>
+                    <ul className="nav flex-column mb-2">
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Home</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Features</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">Pricing</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">FAQs</Link></li>
+                      <li className="nav-item "><Link to='/category' href="#" className="nav-link p-0 text-body-secondary">About</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -637,7 +637,7 @@ useShow12('d-none')
       </Swiper>
 
       <Swiper
-       calculateHeight:true
+       
         slidesPerView={1.2}
         centeredSlides={true}
         spaceBetween={5}

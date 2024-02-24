@@ -62,3 +62,7 @@
   .official {
     background-color: #fee2cc;
   }
+
+  .small img {
+    height: 50px;
+  }

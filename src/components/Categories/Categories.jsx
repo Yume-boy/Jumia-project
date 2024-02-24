@@ -10,20 +10,18 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Autoplay, Pagination, Mousewheel, FreeMode, Scrollbar } from 'swiper/modules';
-import { useWindowSize } from "@uidotdev/usehooks";
 
 
 
 const Categories = () => {
   const [cardData, setCardData] = useState(firstCardData)
-  const size = useWindowSize()
-  const render2 = cardData.map((card,idx) => {
+  const render2 = cardData.map((newer,oh) => {
       return (
-        <div key={idx} className=''>
+        <div key={oh} className=''>
             <SwiperSlide> 
-              <div class='no'>
-                  <div id='yes'><img src={card.imagesrc} /></div>
-                   <p>{card.productName}</p> 
+              <div className='no'>
+                  <div id='yes'><img src={newer.imagesrc} /></div>
+                   <p>{newer.productName}</p> 
               </div>    
              </SwiperSlide>
         </div>

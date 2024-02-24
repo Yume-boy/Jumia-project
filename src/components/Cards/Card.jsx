@@ -5,13 +5,13 @@ import { useState } from 'react'
 const Card = (props) => {
     const [cardData, setCardData] = useState(props.data)
     
-    const render2 = cardData.map((card,idx) => {
+    const render2 = cardData.map((love,idx) => {
         return (
             <div key={idx} className='col-lg-2 col-4 px-1 '>
                  
-            <div class='tol'>
-                <div id=''><img src={card.imagesrc} /></div>
-            <p>{card.ProductName}</p>
+            <div className='tol'>
+                <div id=''><img src={love.imagesrc} /></div>
+            <p>{love.ProductName}</p>
                 
                 
                 </div>    

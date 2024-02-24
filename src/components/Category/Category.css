@@ -22,3 +22,11 @@
     padding: 8px 16px ;
     font-size: 1.3em !important;
 }
+
+.direction {
+    font-size: 12px;
+}
+
+.direction span{
+    color: #686767;
+}

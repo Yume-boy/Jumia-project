@@ -1,15 +1,12 @@
 import './Cart.css'
 import React from 'react'
 import { useCart } from 'react-use-cart'
-import phones from '../../apiData/phones&gadget'
-import { useState } from 'react'
 import { MdOutlineDeleteOutline } from "react-icons/md";
 import ProductSection from '../ProductSection/ProductSection';
 import imageOne from '../../apiData/imageOne'
 import imageTwo from '../../apiData/imageTwo'
 
 const Cart = () => {
-  const [data, setData] = useState(phones)
   const {
     isEmpty,
     totalUniqueItems,
@@ -21,7 +18,20 @@ const Cart = () => {
     emptyCart,
   } = useCart()
 
-  if (isEmpty) return <h1>Your cart is empty</h1>
+  if (isEmpty) return (
+  <div className='container'>
+    <div className=' my-2'> 
+    <div className='bg-white d-flex justify-content center empty flex-column py-5'>
+      <img src="https://www.jumia.com.ng/assets_he/images/cart.668e6453.svg" alt="" />
+      <h6>Your Cart Is Empty</h6>
+      <p>Browse our categories and discover our best deals!</p>
+      <a href="/category" ><div className='shopping text-white py-2 px-2'>START SHOPPING</div></a>
+    </div>
+    </div>
+    <ProductSection data={imageOne}  left='Appliances' Right="See all >" color='#fff'/>
+      <ProductSection data={imageTwo} left='Appliances' Right="See all >" color='#f43f44'/>
+  </div>
+  )
 
   return (
     <div className='container '>
@@ -30,9 +40,9 @@ const Cart = () => {
         
           <div className='col-lg-9 col-12 cart-items'>
           <div className='my-3'><h4>Cart ({totalUniqueItems})</h4></div>
-          { items.map((data, yes)=>{
+          { items.map((data, cart)=>{
     return (
-      <div key={yes} className ='my-2  d-flex '>
+      <div key={cart} className ='my-2  d-flex '>
         <div className='cart-img '><img src={data.imageUrl} alt="" /></div>
        <div className=' w-100'>
             <div className=' cart-between justify-content-between '>

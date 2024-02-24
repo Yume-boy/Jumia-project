@@ -34,7 +34,7 @@ const Contact = () => {
               <div className='d-flex justify-content-center '>
                 <div className='d-flex chat'>
                 <div className='message'><LuMessagesSquare /></div>
-                <div className='p ps-3'>CHAT WITH US</div>
+                <div className='pleasee ps-3'>CHAT WITH US</div>
                 </div>
               </div>
               <div className='mt-3 pb-5 mb-4'>
@@ -64,7 +64,7 @@ const Contact = () => {
                 <div className='d-flex justify-content-center '>
                   <div className='d-flex chat'>
                   <div className='message'><LuMessagesSquare /></div>
-                  <div className='please ps-3'>CHAT WITH US</div>
+                  <div className='pleasee ps-3'>CHAT WITH US</div>
                   </div>
                 </div>
                 <div className='mt-3 pb-5 mb-4'>

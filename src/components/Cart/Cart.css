@@ -79,3 +79,17 @@
         background-color: #fff;
     }
 }
+
+.shopping {
+    background-color: #f68b1e;
+    font-size: 14px; 
+    border-radius: 5px;
+}
+
+.shopping:hover {
+    background-color: #f68a1ec5;
+}
+
+.empty {
+    border-radius: 10px;
+}
