@@ -25,7 +25,7 @@ import imageNine from '../../apiData/imageNine'
 function Home() { 
   return (
       <div className='home'>
-    <div className=' container '>
+      <div className=' container-lg '>
       <LinkSection />
       <Categories />
       <ProductSection data={imageOne}  left='Appliances' Right="See all >" color='#fff'/>

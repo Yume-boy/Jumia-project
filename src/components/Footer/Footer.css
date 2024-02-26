@@ -75,7 +75,7 @@
     display: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1034px) {
     .footer-top-strip,
     .footer-bottom-strip {
         display: none !important;

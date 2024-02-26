@@ -452,7 +452,7 @@
 @media (min-width: 600px) {
     .imaje {
         display: grid;
-        grid-template-columns: 2fr  2fr;
+        grid-template-columns: 2fr;
     }
 
     

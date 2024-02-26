@@ -611,7 +611,7 @@ useShow12('d-none')
                 no 12
             </div>
           </div>
-          <div className="col-md-12 col-lg-8">
+          <div className="col-md-12 col-lg-10 col-xl-8">
           <Swiper
         spaceBetween={30}
         pagination={{
@@ -669,7 +669,7 @@ useShow12('d-none')
       
 
           </div>
-          <div className="col-2 left d-md-none d-lg-block">
+          <div className="col-2 left d-none d-xl-block">
             <div className='call mb-3 d-flex flex-column justify-content-around ps-2'>
                <div className='d-flex '>
                 <div className='pe-2 me-2 icon'>

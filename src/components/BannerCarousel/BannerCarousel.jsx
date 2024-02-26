@@ -122,7 +122,7 @@ const BannerCarousel = (props) => {
 
             </div>
             <div className={`bg-white d-lg-none g-2 px-2`}>
-              <div className={`row py-3 small`} >
+              <div className={`row py-3 g-1 small`} >
 
                 <div className='col-3'>
                  <img   src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/Brand-design-update/Pernod_ricard.png" alt="" />
@@ -160,7 +160,7 @@ const BannerCarousel = (props) => {
               </div>
 
               <div className={`bg-white d-lg-none mt-1 g-2 px-2`}>
-              <div className={`row py-3 small`} >
+              <div className={`row py-3 g-1 small`} >
 
               <div className='col-3'>
                   <img src="https://ng.jumia.is/cms/0-1-homepage/freelinks-brands-all/xiaomi_260x144.png" alt="" /> 

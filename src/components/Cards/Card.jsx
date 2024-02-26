@@ -7,9 +7,9 @@ const Card = (props) => {
     
     const render2 = cardData.map((love,idx) => {
         return (
-            <div key={idx} className='col-lg-2 col-4 px-1 '>
+            <div key={idx} className='col-lg-2 col-4 '>
                  
-            <div className='tol'>
+            <div className='tol '>
                 <div id=''><img src={love.imagesrc} /></div>
             <p>{love.ProductName}</p>
                 
@@ -26,7 +26,7 @@ const Card = (props) => {
                 <h4>{props.title}</h4>
             </div>
             <div className=' items my-3 '>
-                <div className='row container ms-1'> 
+                <div className='row  mx-1 gx-1'> 
                     {render2}
                 </div>
             </div>

@@ -4,19 +4,14 @@
     border-radius: 5px;
 }
 
-@media (max-width: 580px) {
-    .banner-carousel img {
-        height: 150px;
-    }
-}
 
 .banner-carousel img:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .banner-carousel h4 {
-    color: #313133;
-    font-size: 20px;
+  color: #313133;
+  font-size: 20px;
 }
 
 .swiper-slide {
@@ -45,11 +40,11 @@
     height: 350px;
 
   }
-
+  
   .banner-official {
     border-radius: 7px;
   }
-
+  
   .banner-official img {
     height: 80px;
   } 
@@ -62,7 +57,20 @@
   .official {
     background-color: #fee2cc;
   }
+  
+  
+  @media (min-height: 700px) {
+    .small img {
+      height: 90px;
+    }
+  }
+  @media (max-width: 580px) {
+    .banner-carousel img {
+      height: 150px;
+    }
 
-  .small img {
-    height: 50px;
+    .small img {
+      height: 60px;
+      width: 100%;
+    }
   }

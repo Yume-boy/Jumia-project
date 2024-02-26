@@ -19,7 +19,7 @@ const Contact = () => {
   })
 
   return (
-    <div className='mt-4 container'>
+    <div className='mt-4 container-lg'>
       <div className='needHelp'>
       <h2>NEED HELP?</h2>
       </div>

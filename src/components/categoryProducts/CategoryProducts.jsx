@@ -56,9 +56,9 @@ const CategoryProducts = () => {
               </div>
             </a>
             <div>
-            <div className={`add text-center py-2 mt-3 mb-2`}>
+            <div className={`add text-center py-2 mt-3 mb-2`} onClick={addingItems}>
               {}
-              <h5 onClick={addingItems}>ADD TO CART</h5>
+              <h5>ADD TO CART</h5>
             </div>
             
            

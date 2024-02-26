@@ -7,9 +7,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import 'swiper/css/mousewheel'
 
 // import required modules
-import { Autoplay, Pagination, Mousewheel, FreeMode, Scrollbar } from 'swiper/modules';
+import { Autoplay, Pagination, Mousewheel, FreeMode, Scrollbar, } from 'swiper/modules';
 
 
 
@@ -18,7 +19,7 @@ const Categories = () => {
   const render2 = cardData.map((newer,oh) => {
       return (
         <div key={oh} className=''>
-            <SwiperSlide> 
+            <SwiperSlide className='catego'> 
               <div className='no'>
                   <div id='yes'><img src={newer.imagesrc} /></div>
                    <p>{newer.productName}</p> 
@@ -35,8 +36,12 @@ const Categories = () => {
       
             <Swiper
         slidesPerView={1}
-        spaceBetween={10}
-        mousewheel={true}
+        spaceBetween={5}
+        mousewheel={{
+          enabled: true,
+          forceToAxis: true
+        }}
+        
         freeMode={true} 
         // scrollbar={true}
          breakpoints={{
@@ -58,7 +63,7 @@ const Categories = () => {
           },
         }}
         
-        modules={[Pagination, Autoplay, Mousewheel, FreeMode, Scrollbar]}
+        modules={[Pagination, Autoplay, Mousewheel, FreeMode, Scrollbar, ]}
         className="mySwiper"
       >
         {render2}

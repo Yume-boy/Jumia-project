@@ -3,8 +3,8 @@ import  '../About/About.css'
 
 const About = () => {
   return (
-    <div className='bg-white px-5'>
-      <div className='px-5 d-none d-xl-block'>
+    <div className='bg-white '>
+      <div className='container-lg d-none d-xl-block'>
         <div className='text-center about-text '>
           <h3 className=' pt-2 pb-2'>About us</h3>
         </div>

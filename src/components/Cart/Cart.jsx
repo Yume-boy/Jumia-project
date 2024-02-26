@@ -19,7 +19,7 @@ const Cart = () => {
   } = useCart()
 
   if (isEmpty) return (
-  <div className='container'>
+  <div className='container-lg'>
     <div className=' my-2'> 
     <div className='bg-white d-flex justify-content center empty flex-column py-5'>
       <img src="https://www.jumia.com.ng/assets_he/images/cart.668e6453.svg" alt="" />
@@ -34,7 +34,7 @@ const Cart = () => {
   )
 
   return (
-    <div className='container '>
+    <div className='container-lg '>
       
         <div className='row mt-3 px-3'>
         

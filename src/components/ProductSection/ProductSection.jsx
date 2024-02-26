@@ -43,15 +43,18 @@ const ProductSection = (props) => {
                 <h4 className='see-all'>{props.Right}</h4>
             </div>
           <Swiper
-        slidesPerView={size.width < 768 ? 3 : 6}
+        slidesPerView={size.width < 1034 ? 3 : 6}
         spaceBetween={10}
-        mousewheel={true}
+        mousewheel={{
+          enabled: true,
+          forceToAxis: true
+        }}
         freeMode={true}
         scrollbar={true}
         breakpoints={{
           640: {
             slidesPerView: 3,
-            spaceBetween: 20,
+            spaceBetween: 30,
           },
           768: {
             slidesPerView: 3,
@@ -64,6 +67,7 @@ const ProductSection = (props) => {
         }}
         modules={[Pagination, Autoplay, Mousewheel, FreeMode, Scrollbar]}
         className="mySwiper"
+        
       >
         {render2}
       </Swiper>

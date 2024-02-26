@@ -280,7 +280,7 @@ const Footer = () => {
               <span>Help Center</span>
             </div>
             <div className="col-3 text-center text-white mobile-middle">
-              <span>Contact Us</span>
+             <a href="/contact"className='text-reset'> <span>Contact Us</span></a>
             </div>
             <div className="col-3 text-center text-white mobile-middle">
               <span>terms & Conditions</span>

@@ -13,7 +13,7 @@ import { CartProvider } from 'react-use-cart';
 
 const App = () => {
   return (
-    <div>
+    <div className=''>
       <CartProvider>
       <BrowserRouter>
         <Routes>

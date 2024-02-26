@@ -5,20 +5,17 @@ import ProductSection from '../ProductSection/ProductSection';
 import OfficialStore from '../officialStore/OfficialStore';
 import CategoryProducts from '../categoryProducts/CategoryProducts';
 import CategoryEssay from '../categoryEssay/CategoryEssay';
-
 import Card from '../Cards/Card';
-
 import cardData3 from '../../apiData/cardData3';
-
 import imageFive from '../../apiData/imageFive'
 
 
 const Category = () => {
   return (
-    <div className="container">
+    <div className="container-lg">
       
       <div className="row my-2">
-        <div className="col-12 direction"><a href="/" className='text-reset'>Home</a> {' > '} <span> Phone & Tablet</span></div>
+        <div className="col-12 direction d-none d-lg-block"><a href="/" className='text-reset'>Home</a> {' > '} <span> Phone & Tablet</span></div>
       </div>
       <div className="row">
         <div className='box mb-0'>
@@ -32,15 +29,15 @@ const Category = () => {
       </div>
 
       <div className='mt-4'>
-      <ProductSection data={imageFive}/>
-      <Card data={cardData3} title ='Phone Deals'/>
-      <ProductSection data={imageFive}/>
-      <OfficialStore/>
-      <div className='row'>
-        <div className='col-3 d-none d-lg-block'><FilterSection/></div>
-        <div className='col-12 col-lg-9 '><CategoryProducts /></div>
-      </div>
-      <CategoryEssay/>
+        <ProductSection data={imageFive}/>
+        <Card data={cardData3} title ='Phone Deals'/>
+        <ProductSection data={imageFive}/>
+        <OfficialStore/>
+        <div className='row'>
+          <div className='col-3 d-none d-lg-block'><FilterSection/></div>
+          <div className='col-12 col-lg-9 '><CategoryProducts /></div>
+        </div>
+        <CategoryEssay/>
       </div>
     </div>
   )
