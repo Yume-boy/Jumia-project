@@ -5,11 +5,6 @@ const firstCard = [
     productName: "Clearance Sales"
   },
   {
-    id: 11,
-    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1.png",
-    productName: "Best deals"
-  },
-  {
     id: 2,
     imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_2.png",
     productName: "Phones & Tablets"
@@ -53,6 +48,11 @@ const firstCard = [
     id: 10,
     imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1_copy_4.png",
     productName: "Official store deals"
+  },
+  {
+    id: 11,
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week-8/Home_Makeover/Thumbnails/Artboard_1.png",
+    productName: "Best deals"
   },
   {
     id: 12,

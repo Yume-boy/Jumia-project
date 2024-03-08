@@ -24,7 +24,7 @@ const FilterSection = () => {
           <div className="">
             <div className="input-group search-bar">
               <span className="input-group-text" id="basic-addon1"><BsSearch /></span>
-              <input type="text" className="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" />
+              <input type="text" className="form-control-1" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" />
             </div>
 
             <div className="m-2 d-flex align-items-center">

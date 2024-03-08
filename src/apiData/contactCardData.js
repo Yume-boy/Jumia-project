@@ -1,27 +1,27 @@
 const contactData = [
   {
     id: 1,
-    imagesrc: "https://www.jumia.com.ng/mlp-the-good-times/",
+    imagesrc: "https://ng.jumia.is/cms/0-1-weekly-cps/2021/w42/the-good-times/quartz-watches_260x144.png",
     productName: "Wristwtches"
   },
   {
     id: 2,
-    imagesrc: "https://www.jumia.com.ng/mlp-the-apples/",
+    imagesrc: "https://ng.jumia.is/cms/0-1-homepage/0-0-freelinks-gray/featured-categories/the-apples_260x144.png",
     productName: "iPhone & iOS Devices"
   },
   {
     id: 3,
-    imagesrc: "https://www.jumia.com.ng/phones-tablets/",
+    imagesrc: "https://ng.jumia.is/cms/0-0-black-friday/2021/freelinks/plain-bg/phone-deals_260x144.png",
     productName: "Phones and Tablets"
   },
   {
     id: 4,
-    imagesrc: "https://www.jumia.com.ng/category-fashion-by-jumia/",
+    imagesrc: "https://ng.jumia.is/cms/0-5-TechWeek/2022/userneeds/power-up/power-up_260x144.png",
     productName: "Fashion"
   },
   {
     id: 5,
-    imagesrc: "https://www.jumia.com.ng/patio-lawn-garden/",
+    imagesrc: "https://ng.jumia.is/cms/0-5-TechWeek/2022/userneeds/power-up/power-up_260x144.png",
     productName: "Portable Power"
   },
   {

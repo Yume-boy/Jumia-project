@@ -333,7 +333,7 @@ const ProductDetails = () => {
 
 
 
-        <div className='mt-3 bg-white w-100'><ProductSection data={imageFive}/></div>
+        <div className='mt-3 bg-white w-100'><ProductSection data={imageFive} display='d-none' flash='d-none' time = 'd-none' /></div>
     </div>
   )
 }

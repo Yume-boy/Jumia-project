@@ -19,7 +19,7 @@ h6 {
     width: 100%;
 }
 
-.form-control:focus {
+.form-control-1:focus {
     box-shadow: none !important;
     border-color: #dcdcdc !important;
 }
@@ -37,9 +37,10 @@ h6 {
     border-radius: 20px 0 0 20px !important;
 }
 
-.form-control {
+.form-control-1 {
     border-left: none !important;
     border-radius: 0 20px 20px 0 !important;
+    border: 1px thin;
 }
 
 .text-span {

@@ -119,6 +119,8 @@ hr {
 
 .item-2 {
     background-color: #fff;
+    
+    padding: 10px 5px;
 }
 
 .item-2:hover {

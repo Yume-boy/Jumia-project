@@ -1,5 +1,5 @@
 import './ProductSection.css'
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -10,10 +10,28 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Mousewheel, FreeMode, Scrollbar } from 'swiper/modules';
 import { useWindowSize } from "@uidotdev/usehooks";
+import { RiShieldFlashFill } from "react-icons/ri";
 
 
 
 const ProductSection = (props) => {
+
+  const [count, setCount] = useState(72000)
+
+
+      useEffect(()=>{
+          setTimeout(() => {
+              count === 0 ? setCount(count) : setCount( count - 1)
+          }, .1)
+
+          
+      })  
+      
+
+      let minutes =  Math.floor((count / 60) % 60) 
+      let seconds = count % 60
+      seconds = seconds < 10 ? '0' + seconds : seconds
+      let hours = Math.floor(count / 3600)
 
   const [cardData, setCardData] = useState(props.data)
     const size = useWindowSize()
@@ -21,13 +39,15 @@ const ProductSection = (props) => {
       return (
           <SwiperSlide key={idx} className='content'>
                
-          <div className='content tol'>
+          <div className='content tol px-2'>
               <div><img src={card.imageUrl} /></div>
               <div className='products'>
               <div style={{width:'100%'}}><p className='p1'>{card.name}</p></div>
               <p className='p2'>{card.newPrice} <br /><span className='p3'>{card.oldPrice}</span></p>
               </div>
-              
+              <div class={`progress ${props.display} my-2`} role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                <div class={`progress-bar ${card.progressLength > 0 && card.progressLength < 20  ? 'bg-danger' :  'bg-warning'}`} style={{width: `${card.progressLength}%`}}></div>
+              </div>
               
               </div>    
           </SwiperSlide>
@@ -38,9 +58,10 @@ const ProductSection = (props) => {
       <div className="">
       
         <div className=" cover">
-        <div className='card-text d-flex justify-content-between px-2' style={{backgroundColor: `${props.color}`}}>
-                <h4>{props.left}</h4>
-                <h4 className='see-all'>{props.Right}</h4>
+        <div className='card-text d-flex justify-content-between px-3 align-items-center' style={{backgroundColor: `${props.bgcolor}`}}>
+        <div className='d-flex align-items-center'><div className={`flash ${props.flash}`}><RiShieldFlashFill /></div><h4 className={`${props.color} flash-text`}>{props.left}</h4></div>
+                <h3 className={`${props.time} ${props.color}`}> Time Left: {hours}h : {minutes}m : {seconds}s</h3> 
+                <h4 className={`${props.color} see-all`}>{props.Right}</h4>
             </div>
           <Swiper
         slidesPerView={size.width < 1034 ? 3 : 6}

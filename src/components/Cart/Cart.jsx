@@ -28,8 +28,8 @@ const Cart = () => {
       <a href="/category" ><div className='shopping text-white py-2 px-2'>START SHOPPING</div></a>
     </div>
     </div>
-    <ProductSection data={imageOne}  left='Appliances' Right="See all >" color='#fff'/>
-      <ProductSection data={imageTwo} left='Appliances' Right="See all >" color='#f43f44'/>
+    <ProductSection data={imageOne}  left='Fashion' Right="See all >" display='d-none' flash='d-none' time = 'd-none'  color='#fff'/>
+      <ProductSection data={imageTwo} left='Fresh Deals' Right="See all >" display='d-none' flash='d-none' time = 'd-none'  color='#f43f44'/>
   </div>
   )
 
@@ -86,8 +86,8 @@ const Cart = () => {
           </div>
         </div>
 
-      <ProductSection data={imageOne}  left='Appliances' Right="See all >" color='#fff'/>
-      <ProductSection data={imageTwo} left='Appliances' Right="See all >" color='#f43f44'/>
+      <ProductSection data={imageOne}  left='Appliances' Right="See all >" display='d-none' flash='d-none' time = 'd-none'  color='#fff'/>
+      <ProductSection data={imageTwo} left='Appliances' Right="See all >" display='d-none' flash='d-none' time = 'd-none'  color='#f43f44'/>
     </div>
   )
 }

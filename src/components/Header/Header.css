@@ -7,6 +7,19 @@
     width: 100% !important;
 }
 
+.jpay {
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.jpay:hover {
+    filter: grayscale(0);
+}
+
+.form-control {
+    border-radius: 0 20px 20px 0 !important;
+}
+
 .header-top-strip {
     background: #4b797d;
     width: 100%;
@@ -96,8 +109,8 @@
 }
 
 .navigation {
-    top: 60px;
-    left: 50px;
+    top: 50px;
+    left: 5px;
     z-index: 1000;
     border-radius: 10px;
     width: 200px;

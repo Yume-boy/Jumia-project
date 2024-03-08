@@ -3,9 +3,9 @@ import { useState } from 'react'
 import './categoryProducts.css'
 import phones from '../../apiData/phones&gadget'
 import { FaStar } from "react-icons/fa";
-import { CgDisplayGrid } from "react-icons/cg";
-import { CgDisplaySpacing } from "react-icons/cg";
+import { MdOutlineViewCompact } from "react-icons/md";
 import { useCart } from 'react-use-cart';
+import { MdViewHeadline } from "react-icons/md";
 const CategoryProducts = () => {
   const [display1, setDisplay1] = useState('d-none')
 
@@ -57,7 +57,6 @@ const CategoryProducts = () => {
             </a>
             <div>
             <div className={`add text-center py-2 mt-3 mb-2`} onClick={addingItems}>
-              {}
               <h5>ADD TO CART</h5>
             </div>
             
@@ -68,8 +67,21 @@ const CategoryProducts = () => {
   })
 
   const render2 = phones.map((data, yes)=>{
+
+    const addingItems = ()=>{
+      addItem(data)
+  
+      setTimeout(()=> {
+        setDisplay1('d-block')
+      }, 1000)
+  
+      setTimeout(()=> {
+        setDisplay1('d-none')
+      }, 3000)
+    }
     return (
       <div key={yes} className ='col-lg-3 col-6 col-md-4 my-2 item-2 d-flex w-100'>
+        
         <div className='data me-2'><img src={data.imageUrl} alt="" /></div>
        <div className='w-100'>
           <div className=' lord w-100'>
@@ -84,11 +96,12 @@ const CategoryProducts = () => {
         <div className='express'>
           <img src="https://vendorhub.jumia.co.ke/wp-content/uploads/2017/08/Jumia-Express-logo-e1556633520715.png" alt="" />
         </div>
-        <div className={`add-2 text-center py-2 mt-3 mb-2`}>
-          <h5 onClick={()=>addItem(data)}>ADD TO CART</h5>
+        <div className={`add-2 text-center py-2 mt-3 mb-2`} onClick={addingItems}>
+          <h5>ADD TO CART</h5>
         </div>  
         </div>
        </div>
+        
       </div>
     )
 })
@@ -104,10 +117,10 @@ const CategoryProducts = () => {
         </div>
         <hr />
         <div className='category-second d-flex justify-content-between align-items-center'>
-          <div className='pt-2'><p>5198761 products found</p></div>
+          <div className='pt-2'><p>{Math.floor(Math.random()*12125636)} products found</p></div>
           <div className='grid d-flex'>
-            <div onClick={showGrid1}><CgDisplayGrid /></div>
-            <div onClick={showGrid2}><CgDisplaySpacing /></div>
+            <div onClick={showGrid1}><MdOutlineViewCompact /></div>
+            <div onClick={showGrid2}><MdViewHeadline /></div>
           </div>
         </div>
         <hr />

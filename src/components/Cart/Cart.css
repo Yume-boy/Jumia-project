@@ -74,10 +74,11 @@
     font-size: 14px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1034px) {
     .cart-items-2 {
         background-color: #fff;
     }
+
 }
 
 .shopping {

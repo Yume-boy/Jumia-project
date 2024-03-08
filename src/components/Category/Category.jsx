@@ -29,9 +29,9 @@ const Category = () => {
       </div>
 
       <div className='mt-4'>
-        <ProductSection data={imageFive}/>
+        <ProductSection data={imageFive} display='d-none' flash='d-none' time = 'd-none' />
         <Card data={cardData3} title ='Phone Deals'/>
-        <ProductSection data={imageFive}/>
+        <ProductSection data={imageFive} display='d-none' flash='d-none' time = 'd-none' />
         <OfficialStore/>
         <div className='row'>
           <div className='col-3 d-none d-lg-block'><FilterSection/></div>
